@@ -10,14 +10,31 @@ function Tour() {
   );
 }
 
+//date format: YYYY-MM-DD
 const upcomingShows = [
     {
-        date : "11/03/23", 
+        date : "2023-03-03", 
+        venue : "Whammy Bar", 
+        country : "NZ", 
+        city : "Auckland",
+        info : "Support1 | Support2 | Support3",
+        ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr"
+    },
+    {
+        date : "2023-03-09", 
+        venue : "San Fran", 
+        country : "NZ", 
+        city : "Wellington",
+        info : "Support1 | Support2 | Support3",
+        ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr"
+    },
+    {
+        date : "2023-03-11", 
         venue : "Western Springs", 
         country : "NZ", 
         city : "Auckland",
-        info : "Supporting My Chemical Romance",
-        linkToTickets : "www.google.com"
+        info : "My Chemical Romance",
+        ticketURL : "www.google.com"
     }
 ]
 
