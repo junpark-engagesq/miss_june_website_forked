@@ -1,21 +1,17 @@
 import './Merch.css';
 import MerchItem from './MerchItem/MerchItem.js';
+import { currentMerch } from '../variables';
 
 function Merch() {
   return (
-    <section className="merch">
+    <section id="merch">
         <h1>Merch</h1>
-        {currentMerch.map((merchItem, index) => <MerchItem item={merchItem} key={index} />)}
+        <div id="merchItems">
+          {currentMerch.map((merchItem, index) => <MerchItem item={merchItem} key={index} />)}
+        </div>
     </section>
   );
 }
 
 export default Merch;
 
-const currentMerch = [
-  {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "www.google.com"
-  }
-]

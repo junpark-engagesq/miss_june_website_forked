@@ -1,3 +1,41 @@
 .Header {
     background-color: red;
 }
+
+#socials {
+
+}
+
+.icon:hover {
+    color: pink;
+}
+
+.socialIcon {
+    margin: 0 5px 0 5px;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    margin: 40px 0;
+    display:flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.navItem {
+    margin-right: 15px;
+}
+
+.hidden {
+    visibility: hidden; 
+}
+
+#navbar {
+    background-color: inherit;
+    padding: 10px;
+}
+
+.showBackground {
+    background-color: rgb(223, 223, 223) !important;
+}
