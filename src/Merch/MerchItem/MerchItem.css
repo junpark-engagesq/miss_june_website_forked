@@ -1,7 +1,6 @@
 a {
    color: inherit;
    text-decoration: none;
-   max-width: 200px;
 }
 
 a:hover {
@@ -9,10 +8,11 @@ a:hover {
 }
 
 .merchImage {
-    width: 150px;
+    width: 100%;
+    min-width: 120px;
 }
 
 .merchItem {
-    margin: 30px;
+    width: 200px;
 }
 

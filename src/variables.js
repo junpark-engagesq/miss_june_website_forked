@@ -6,23 +6,23 @@ const videoToDisplay = "https://www.youtube.com/embed/RZg4YW95aGU" // Anomaly
 const upcomingShows = [
     {
         date : "2023-03-03", 
-        venue : "Whammy Bar", 
+        venue : "WHAMMY BAR", 
         country : "NZ", 
         city : "Auckland",
-        info : "Support1 | Support2 | Support3",
+        info : "Supports TBC",
         ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr"
     },
     {
         date : "2023-03-09", 
-        venue : "San Fran", 
+        venue : "SAN FRAN", 
         country : "NZ", 
         city : "Wellington",
-        info : "Support1 | Support2 | Support3",
+        info : "Supports TBC",
         ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr"
     },
     {
         date : "2023-03-11", 
-        venue : "Western Springs", 
+        venue : "WESTERN SPRINGS", 
         country : "NZ", 
         city : "Auckland",
         info : "My Chemical Romance",

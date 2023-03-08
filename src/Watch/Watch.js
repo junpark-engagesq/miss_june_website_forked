@@ -4,15 +4,19 @@ import { videoToDisplay } from '../variables';
 function Watch() {
     return (
     <section id="watch">
-        <h1>Watch</h1>
-        <span id="video">
+        <h1>WATCH</h1>
+        <div id="video">
             <iframe width="720" height="405" src={videoToDisplay}
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                         gyroscope; picture-in-picture; web-share" 
                     allowFullScreen>
             </iframe>
-        </span>
+        </div>
+
+        <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="getTicketsButton">
+            MORE VIDEOS 
+        </a>
     </section>
   );
 }

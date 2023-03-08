@@ -5,7 +5,7 @@ import { upcomingShows } from '../variables';
 function Tour() {
   return (
     <section id="tour">
-        <h1>Shows</h1>
+        <h1>SHOWS</h1>
         {upcomingShows.map((singleShow, index) => <Show show={singleShow} key={index} />)}
     </section>
   );

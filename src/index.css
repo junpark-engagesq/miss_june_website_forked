@@ -15,3 +15,17 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+p { 
+  margin: 0;
+}
+
+section {
+  padding: 2vh 13%;
+}
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 50px;
+  margin-bottom: 70px;
+}

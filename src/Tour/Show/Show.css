@@ -2,20 +2,37 @@
     display: flex;
     justify-content: space-between;
     background-color: beige;
+    padding: 20px 15px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.show:hover {
+    background-color: rgb(205, 205, 205);
 }
 
 .date {
-
+    font-weight: bold;
+   
 }
 
 .location {
-
+    font-size: 17px;
 }
 
 .venue {
+    font-weight: bold;
+}
+
+.middleText {
 
 }
 
 .gigInfo {
+    color: rgb(117, 117, 118);
+    font-size: 17px;
+}
 
+.leftText {
+    font-size: 20px;
 }

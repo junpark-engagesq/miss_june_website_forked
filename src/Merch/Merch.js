@@ -5,7 +5,7 @@ import { currentMerch } from '../variables';
 function Merch() {
   return (
     <section id="merch">
-        <h1>Merch</h1>
+        <h1>MERCH</h1>
         <div id="merchItems">
           {currentMerch.map((merchItem, index) => <MerchItem item={merchItem} key={index} />)}
         </div>

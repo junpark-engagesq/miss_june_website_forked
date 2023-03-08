@@ -3,5 +3,16 @@
     grid-column-gap: 1em;
     grid-row-gap: 1.5em;
     margin-bottom: 8vh;
-    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
+
+@media (min-width:415px) {
+    #merchItems {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+#merch {
+    /* padding: 0 13%; */
+}
+

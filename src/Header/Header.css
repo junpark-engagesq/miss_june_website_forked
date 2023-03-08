@@ -3,7 +3,7 @@
 }
 
 #socials {
-
+    
 }
 
 .icon:hover {
@@ -11,7 +11,7 @@
 }
 
 .socialIcon {
-    margin: 0 5px 0 5px;
+    margin: 0 8px 0 8px;
 }
 
 #header {
@@ -24,7 +24,8 @@
 }
 
 .navItem {
-    margin-right: 15px;
+    margin-right: 25px;
+    font-size: 20px;
 }
 
 .hidden {

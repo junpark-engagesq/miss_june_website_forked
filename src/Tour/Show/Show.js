@@ -1,7 +1,7 @@
 import './Show.css';
 import GetTicketsButton from './GetTicketsButton/GetTicketsButton';
 
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const months = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
 const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
 function Show(props) {
@@ -13,13 +13,14 @@ function Show(props) {
 
   return (
     <div className="show">
-      <div>
+      <div className="leftText">
         <p className="date"> {dayName} {dayNumber} {month} </p>
         <p className="location"> {props.show.city} {props.show.country} </p>
-        <p className="venue"> {props.show.venue} </p> 
       </div>
-      <div>
+      <div className="middleText">
         <p className="gigInfo"> {props.show.info} </p>
+        <p className="venue"> {props.show.venue} </p> 
+        
       </div>
       <GetTicketsButton ticketURL={props.show.ticketURL} />
     </div>
