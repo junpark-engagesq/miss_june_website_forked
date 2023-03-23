@@ -20,9 +20,8 @@ function Show(props) {
       <div className="middleText">
         <p className="gigInfo"> {props.show.info} </p>
         <p className="venue"> {props.show.venue} </p> 
-        
       </div>
-      <GetTicketsButton ticketURL={props.show.ticketURL} />
+      <GetTicketsButton ticketURL={props.show.ticketURL} soldOut={props.show.soldOut}/>
     </div>
   );
 }

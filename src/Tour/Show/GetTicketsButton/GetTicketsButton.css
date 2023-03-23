@@ -1,11 +1,9 @@
 /* CSS */
 .getTicketsButton {
-    background: #FF0000;
-    border: 1px solid #FF0000;
+
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     box-sizing: border-box;
-    color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
     font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
@@ -24,13 +22,30 @@
     vertical-align: middle;
 }
 
-.getTicketsButton:hover,
-.getTicketsButton:active {
+.notSoldOut {
+    background: #FF0000;
+    border: 1px solid #FF0000;
+    color: #FFFFFF;
+}
+
+.notSoldOut:hover,
+.notSoldOut:active {
     background-color: initial;
     background-position: 0 0;
     color: #FF0000;
 }
 
-.getTicketsButton:active {
+.notSoldOut:active {
     opacity: .5;
+}
+
+.SoldOut {
+    background-color: #5e5e5e;
+    color: black;
+}
+
+.SoldOut:hover,
+.SoldOut:active {
+    background-color: #5e5e5e;
+    background-position: 0 0;
 }

@@ -10,7 +10,8 @@ const upcomingShows = [
         country : "NZ", 
         city : "Auckland",
         info : "Supports TBC",
-        ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr"
+        ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
+        soldOut : true
     },
     {
         date : "2023-03-09", 
@@ -18,7 +19,8 @@ const upcomingShows = [
         country : "NZ", 
         city : "Wellington",
         info : "Supports TBC",
-        ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr"
+        ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
+        soldOut : false
     },
     {
         date : "2023-03-11", 
@@ -26,7 +28,8 @@ const upcomingShows = [
         country : "NZ", 
         city : "Auckland",
         info : "My Chemical Romance",
-        ticketURL : "www.google.com"
+        ticketURL : "www.google.com",
+        soldOut : false
     }
 ]
 

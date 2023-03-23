@@ -6,10 +6,10 @@ const openInNewTab = (url) => {
 
 
 function GetTicketsButton(props) {
-    console.log(props.soldOut)
+    const soldOut = props.soldOut;
     return (
-        <button className="getTicketsButton" onClick={ () => openInNewTab(props.ticketURL)}>
-            {props.soldOut?"SOLD OUT":"TICKETS"}
+        <button className={ "getTicketsButton " + (soldOut ? "soldOut": "notSoldOut")}  onClick={ () => openInNewTab(props.ticketURL)} disabled={soldOut}>
+            {soldOut? "SOLD OUT":"TICKETS" }
         </button>
     );
 }
