@@ -14,7 +14,7 @@ function Watch() {
             </iframe>
         </div>
 
-        <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="getTicketsButton">
+        <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="getTicketsButton notSoldOut">
             MORE VIDEOS 
         </a>
     </section>
