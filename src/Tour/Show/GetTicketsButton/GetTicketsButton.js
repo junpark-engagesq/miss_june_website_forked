@@ -4,10 +4,12 @@ const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
 };
 
+
 function GetTicketsButton(props) {
+    console.log(props.soldOut)
     return (
         <button className="getTicketsButton" onClick={ () => openInNewTab(props.ticketURL)}>
-            TICKETS
+            {props.soldOut?"SOLD OUT":"TICKETS"}
         </button>
     );
 }
