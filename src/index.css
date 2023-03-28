@@ -9,6 +9,7 @@ body {
 
 :root {
   --BUTTON_COLOUR: #FF0000;
+    margin: 0;
 }
 
 code {
@@ -32,4 +33,18 @@ h1 {
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 50px;
   margin-bottom: 70px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 4vh;
+    margin-bottom: 40px;
+  }
+
+  section {
+    padding: 5% 5%;
+    margin: 0;
+  }
+  
 }

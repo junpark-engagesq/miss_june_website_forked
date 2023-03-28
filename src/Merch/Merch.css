@@ -4,15 +4,11 @@
     grid-row-gap: 1.5em;
     margin-bottom: 8vh;
     justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (min-width:415px) {
+@media (max-width:500px) {
     #merchItems {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
-
-#merch {
-    /* padding: 0 13%; */
-}
-

@@ -9,7 +9,7 @@ function GetTicketsButton(props) {
     const soldOut = props.soldOut;
     return (
         <button className={ "getTicketsButton " + (soldOut ? "soldOut": "notSoldOut")}  onClick={ () => openInNewTab(props.ticketURL)} disabled={soldOut}>
-            {soldOut? "SOLD OUT":"TICKETS" }
+            {soldOut? "Sold Out":"TICKETS" }
         </button>
     );
 }

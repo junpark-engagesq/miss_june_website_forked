@@ -1,0 +1,38 @@
+.homeImage {
+margin-top: 1em;
+max-width: 950px;
+max-height: 750px;
+}
+
+.homeName {
+    margin: 0.5em 0 0 0;
+}
+
+
+.homeBuyNow {
+    margin: 0.5em 0 1.5em 0;
+    font-size: 2em;
+}
+
+.homeBuyNow:hover
+{  
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .homeImage {
+        margin-top: 1em;
+        max-width: 100%;
+        max-height: 100%;
+        }
+        
+    .homeName {
+            margin: 0.5em 0 0 0;
+            font-size: 4vh;
+        }
+        
+    .homeBuyNow {
+            margin: 0.5em 0 1.5em 0;
+            font-size: 3vh;
+        }
+}

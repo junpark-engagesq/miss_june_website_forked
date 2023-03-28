@@ -3,3 +3,10 @@
     color:rgb(144, 144, 144);
     padding-bottom: 20px;
 }
+
+@media (max-width : 500px) {
+    #footer p{
+        font-size: 1.5vh;
+    }
+
+}

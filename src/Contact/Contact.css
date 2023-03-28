@@ -5,3 +5,13 @@
 h3 {
     margin: 40px 0 10px 0;
 }
+
+@media (max-width: 500px) {
+    h3 {
+        font-size: 2vh;
+    }
+
+    p {
+        font-size: 2vh;
+    }
+}

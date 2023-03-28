@@ -13,10 +13,11 @@ function Watch() {
                     allowFullScreen>
             </iframe>
         </div>
-
+        <div id='moreVideos'>
         <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="getTicketsButton notSoldOut">
             MORE VIDEOS 
         </a>
+        </div>
     </section>
   );
 }

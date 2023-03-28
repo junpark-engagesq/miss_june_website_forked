@@ -82,4 +82,13 @@ const currentMerch = [
   },
 ]
 
-export {videoToDisplay, currentMerch, upcomingShows};
+// #~#~#~#~#~#~#~#~#~#~#~# Homepage Header #~#~#~#~#~#~#~#~#~#~#~#
+const homeHeader = [
+  {
+    name : "Bad Luck Party",
+    imageURL : "/images/BLP_Album_Cover.jpg",
+    buyNow : "Buy Now",
+    URL : "https://www.pornhub.com/"
+  }
+]
+export {videoToDisplay, currentMerch, upcomingShows, homeHeader};

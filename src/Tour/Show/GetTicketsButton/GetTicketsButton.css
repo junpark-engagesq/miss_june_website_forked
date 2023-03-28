@@ -48,3 +48,12 @@
     background-color: #5e5e5e;
     background-position: 0 0;
 }
+
+
+@media (max-width: 500px) {
+
+    .getTicketsButton {
+        font-size: 2vh;
+        margin: 5px 0;
+    }
+}

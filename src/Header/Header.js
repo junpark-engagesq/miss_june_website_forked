@@ -31,7 +31,7 @@ function Header() {
         <a class="socialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
       </span>
 
-      <nav id="navbar" className="">
+      {/* <nav id="navbar" className="">
         <span id="navItems" className="hidden">
           <a className="navItem" href="#">HOME</a>
           <a className="navItem" href="#watch">WATCH</a>
@@ -40,6 +40,30 @@ function Header() {
           <a className="navItem" href="#contact">CONTACT</a>
         </span>
         <i id="navBarIcon" className="fa-solid fa-lg fa-bars icon" onClick={() => toggleNavbar()}></i>       
+      </nav> */}
+
+
+      {/* Pooey Experimenting */}
+      <nav id="navbar" className="">
+        <ul>
+        <span id="navItems" className="hidden">
+          <li><a className="navItem" href="#">HOME</a></li>
+          <li><a className="navItem" href="#watch">WATCH</a></li>
+          <li><a className="navItem" href="#merch">MERCH</a></li>
+          <li><a className="navItem" href="#tour">TOURS</a></li>
+          <li><a className="navItem" href="#contact">CONTACT</a></li>
+          <span id="mobileSocials">
+        <a class="mobileSocialIcon" href="https://www.facebook.com/missjunenz/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-facebook-f icon"></i></a>
+        <a class="mobileSocialIcon" href="https://www.instagram.com/ihatemissjune/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-instagram" icon></i></a>
+        <a class="mobileSocialIcon" href="https://open.spotify.com/artist/5EVVKA7mtSCAgk1kDhAEFp" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-spotify icon"></i></a>
+        <a class="mobileSocialIcon" href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-youtube icon"></i></a>
+        <a class="mobileSocialIcon" href="https://missjune.bandcamp.com/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-bandcamp icon"></i></a>
+        <a class="mobileSocialIcon" href="https://music.apple.com/nz/artist/miss-june/668816836" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-apple icon"></i></a>
+        <a class="mobileSocialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
+      </span>
+        </span>
+        </ul>    
+        <i id="navBarIcon" className="fa-solid fa-lg fa-bars icon" onClick={() => toggleNavbar()}></i>   
       </nav>
     </header>
   );

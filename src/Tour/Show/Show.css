@@ -13,7 +13,6 @@
 
 .date {
     font-weight: bold;
-   
 }
 
 .location {
@@ -25,7 +24,7 @@
 }
 
 .middleText {
-
+    text-align: center;
 }
 
 .gigInfo {
@@ -35,4 +34,46 @@
 
 .leftText {
     font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    
+    .location {
+        text-align: center;
+        font-size: 1.8vh;
+    }
+    
+    .venue {
+        text-align: center;
+        margin: 10px 0 0 0;
+        font-size: 2vh;
+    }
+    
+    .middleText {
+        text-align: center;
+    }
+    
+    .gigInfo {
+        text-align: center;
+        font-size: 1.8vh;
+    }
+    
+    .leftText {
+        text-align: center;
+        margin: 5px 0 0 0;
+        font-size: 1vh;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1vh;
+    }
+    
+    .date {
+        font-weight: bold;
+        font-size: 2vh;
+    }
+    
 }

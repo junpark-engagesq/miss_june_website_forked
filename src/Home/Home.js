@@ -1,9 +1,14 @@
 import './Home.css';
+import HomeItem from './HomeItem/HomeItem';
+import { homeHeader } from '../variables';
+
 
 function Home() {
   return (
     <section id="home">
-    <h1>SOME PICTURE HERE</h1>
+        <div id="homepageImg">
+          {homeHeader.map((homeImage, index) => <HomeItem homeitem={homeImage} key={index} />)}
+        </div>
     </section>
   );
 }
