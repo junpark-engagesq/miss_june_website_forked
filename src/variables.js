@@ -87,8 +87,10 @@ const homeHeader = [
   {
     name : "Bad Luck Party",
     imageURL : "/images/BLP_Album_Cover.jpg",
+    imageSpotifyURL : "https://open.spotify.com/album/5dISG6rMmqwneX0eErsA9a",
     buyNow : "Buy Now",
     URL : "https://www.pornhub.com/"
   }
+
 ]
 export {videoToDisplay, currentMerch, upcomingShows, homeHeader};

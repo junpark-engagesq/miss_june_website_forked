@@ -16,4 +16,13 @@ a:hover {
     width: 200px;
 }
 
-
+@media (max-width: 1024px) {
+    .merchImage {
+        width: 100%;
+        min-width: 50px;
+    }
+    
+    .merchItem {
+        width: 140px;
+    }
+}

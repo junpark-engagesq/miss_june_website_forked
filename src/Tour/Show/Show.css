@@ -36,6 +36,34 @@
     font-size: 20px;
 }
 
+@media (max-width: 1024px) {
+    .location {
+        font-size: 1.1vh;
+    }
+    
+    .venue {
+        font-size: 1.3vh;
+    }
+    
+    
+    .gigInfo {
+        font-size: 1.1vh;
+    }
+    
+    .leftText {
+        font-size: 1.3vh;
+    }
+
+    .show {
+        font-size: 1.3vh;
+    }
+    
+    .date {
+        font-size: 1.3vh;
+    }
+}
+
+
 @media (max-width: 500px) {
     
     .location {

@@ -21,6 +21,11 @@ function Contact() {
 
         <h3>LABEL</h3>
           <p>Frenchkiss Records</p>
+        
+        <a href="https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=NZ&uselang=en&utm_medium=spontaneous&utm_source=fr-redir&utm_campaign=spontaneous" target="_blank" rel="norefferer">
+        <h1>Donate to us</h1>
+        </a>
+        
 
     </section>
   );

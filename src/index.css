@@ -35,6 +35,13 @@ h1 {
   margin-bottom: 70px;
 }
 
+@media (max-width: 1024px) {
+  section {
+      padding: 0%;
+  }
+}
+
+
 @media (max-width: 500px) {
   h1 {
     font-family: 'Rubik Mono One', sans-serif;

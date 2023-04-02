@@ -49,6 +49,12 @@
     background-position: 0 0;
 }
 
+@media (max-width: 1024px) {
+    .getTicketsButton {
+        font-size: 1vh;
+    }
+}
+
 
 @media (max-width: 500px) {
 

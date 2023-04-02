@@ -66,6 +66,17 @@ nav #navItems li a {
     margin: 10px;
 }
 
+@media (max-width: 1024px) {
+    #socials {
+        margin: 0px;
+        display: flex;
+    }
+
+    nav #navItems li a {
+        font-size: 1.2vh;
+        font-weight: 700;
+    }
+}
 
 @media (max-width : 500px) {
 
@@ -77,6 +88,11 @@ nav #navItems li a {
         position: fixed;
         margin: 20px 10px;
     }
+
+    nav #navItems li a {
+        font-size: 2.5vh;
+    }
+
     nav #navItems {
         position: fixed;
         justify-content: center;
@@ -118,3 +134,4 @@ nav #navItems li a {
     }
 
 }
+
