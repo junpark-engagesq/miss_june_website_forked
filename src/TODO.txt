@@ -1,0 +1,41 @@
+++++++++   General   ++++++++
+- Side margins are too large 
+- Home page text shouldn't be same font as section titles
+- No 'Donate To Us' (i think personally)
+- overall website needs cooler color pallette
+- overall needs better button response animations (lightups/hovers/colors)
+- could probably find a funner font for <p> elements
+
+
+++++++++   HOME   ++++++++
+- Album cover shouldn't be a link 
+- Text should read 'Bad Luck Party' with two buttons 'Listen' and 'Buy Album' 
+- For big screens 
+    - BLP cover photo on left, text on right. 
+- For small screens
+    - text below album cover
+
+
+++++++++   NAV   ++++++++
+- need cool animation for hamburger menu and X switch (see idles)
+- phone screen 
+    - nav should take up entire screen (see idles) 
+    - Miss June at the top of nav 
+    - socials links should be in header (not in popup nav screen)
+
+++++++++   WATCH   ++++++++
+
+
+++++++++   MERCH   ++++++++
+- style each merch item (Font/spacing/etc.)
+- for phone screen
+    - only display 3(?) merch items (and have a "VIEW MORE" button that shows more merch)
+
+
+++++++++   SHOWS   ++++++++
+- I think the middleText should be left aligned 
+- on smaller screens we should just 2 columns - all gig info on left, tickets button on right (instead of 3 columns)
+
+
+++++++++   CONTACT   ++++++++
+- fonts should be slightly larger 
