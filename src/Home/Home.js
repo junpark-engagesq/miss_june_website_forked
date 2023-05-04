@@ -1,13 +1,16 @@
 import './Home.css';
-import HomeItem from './HomeItem/HomeItem';
-import { homeHeader } from '../variables';
-
+import { albumCoverImageToDisplay } from '../variables';
 
 function Home() {
   return (
     <section id="home">
         <div id="homepageImg">
-          {homeHeader.map((homeImage, index) => <HomeItem homeitem={homeImage} key={index} />)}
+          <img className="homeImage"src={albumCoverImageToDisplay}></img>
+        </div>
+        <div>
+          <a href="" target="_blank" rel="norefferer" className="getTicketsButton notSoldOut">
+            OUT NOW
+          </a>
         </div>
     </section>
   );

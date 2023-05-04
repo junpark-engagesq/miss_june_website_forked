@@ -4,7 +4,6 @@ const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
 };
 
-
 function GetTicketsButton(props) {
     const soldOut = props.soldOut;
     return (

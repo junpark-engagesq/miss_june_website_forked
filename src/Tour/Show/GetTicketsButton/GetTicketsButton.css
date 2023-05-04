@@ -1,6 +1,6 @@
 /* CSS */
 .getTicketsButton {
-    border-radius: 6px;
+    border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     box-sizing: border-box;
     cursor: pointer;
@@ -19,6 +19,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
+    transition: all 0.25s;
 }
 
 .notSoldOut {
@@ -29,9 +30,10 @@
 
 .notSoldOut:hover,
 .notSoldOut:active {
-    background-color: initial;
-    background-position: 0 0;
-    color: var(--BUTTON_COLOUR);
+    color: white;
+    background-color: #ca0000;
+    border: 1px solid #ca0000;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 4px 8px;
 }
 
 .notSoldOut:active {

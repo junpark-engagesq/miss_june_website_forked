@@ -1,5 +1,5 @@
-const videoToDisplay = "https://www.youtube.com/embed/RZg4YW95aGU" // Anomaly
-
+const videoToDisplay = "https://www.youtube.com/embed/RZg4YW95aGU"; // Anomaly
+const albumCoverImageToDisplay = "/images/BLP_Album_Cover.jpg"; 
 // #~#~#~#~#~#~#~#~#~#~#~# SHOWS #~#~#~#~#~#~#~#~#~#~#~#
 // date format: YYYY-MM-DD
 
@@ -31,7 +31,7 @@ const upcomingShows = [
         ticketURL : "www.google.com",
         soldOut : false
     }
-]
+];
 
 // #~#~#~#~#~#~#~#~#~#~#~# MERCH #~#~#~#~#~#~#~#~#~#~#~#
 const currentMerch = [
@@ -80,17 +80,6 @@ const currentMerch = [
     imageURL : "/images/test_merch.jpg",
     URL : "https://www.pornhub.com/"
   },
-]
+];
 
-// #~#~#~#~#~#~#~#~#~#~#~# Homepage Header #~#~#~#~#~#~#~#~#~#~#~#
-const homeHeader = [
-  {
-    name : "Bad Luck Party",
-    imageURL : "/images/BLP_Album_Cover.jpg",
-    imageSpotifyURL : "https://open.spotify.com/album/5dISG6rMmqwneX0eErsA9a",
-    buyNow : "Buy Now",
-    URL : "https://www.pornhub.com/"
-  }
-
-]
-export {videoToDisplay, currentMerch, upcomingShows, homeHeader};
+export { videoToDisplay, currentMerch, upcomingShows, albumCoverImageToDisplay };

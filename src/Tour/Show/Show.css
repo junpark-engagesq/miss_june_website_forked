@@ -1,14 +1,14 @@
 .show {
     display: flex;
     justify-content: space-between;
-    background-color: beige;
     padding: 20px 15px;
     font-size: 20px;
     text-align: left;
+    border-bottom: 1px black solid;
 }
 
 .show:hover {
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(234, 234, 234);
 }
 
 .date {

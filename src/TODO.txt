@@ -1,14 +1,12 @@
 ++++++++   General   ++++++++
 - Side margins are too large 
 - Home page text shouldn't be same font as section titles
-- No 'Donate To Us' (i think personally)
 - overall website needs cooler color pallette
 - overall needs better button response animations (lightups/hovers/colors)
 - could probably find a funner font for <p> elements
 
 
 ++++++++   HOME   ++++++++
-- Album cover shouldn't be a link 
 - Text should read 'Bad Luck Party' with two buttons 'Listen' and 'Buy Album' 
 - For big screens 
     - BLP cover photo on left, text on right. 
@@ -24,7 +22,8 @@
     - socials links should be in header (not in popup nav screen)
 
 ++++++++   WATCH   ++++++++
-
+- get better band photo and crop job 
+- make animation smoother
 
 ++++++++   MERCH   ++++++++
 - style each merch item (Font/spacing/etc.)
@@ -38,4 +37,3 @@
 
 
 ++++++++   CONTACT   ++++++++
-- fonts should be slightly larger 

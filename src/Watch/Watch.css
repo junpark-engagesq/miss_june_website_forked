@@ -24,3 +24,22 @@
         margin: 40px 0;
     }
 }
+
+.bandImage{
+    width: 500px;
+    margin-top: 40px;
+}
+
+.bandImage:hover{
+    animation-name: tilt-shaking;
+    animation-duration: 0.5s;
+    animation-iteration-count: 3;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(1deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-1deg); }
+    100% { transform: rotate(0deg); }
+  }

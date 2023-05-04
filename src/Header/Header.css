@@ -6,12 +6,8 @@
     display: none;
 }
 
-.icon:hover {
-    color: pink;
-}
-
 .socialIcon {
-    margin: 0 8px 0 8px;
+    margin: 0 10px 0 10px;
 }
 
 #header {
@@ -132,6 +128,30 @@ nav #navItems li a {
     .mobileSocialIcon {
         padding: 10px 10px;
     }
-
 }
 
+.fa-facebook-f:hover {
+    color: #4267B2;
+}
+.fa-instagram:hover {
+    color: #5B51D8;
+}
+.fa-spotify:hover {
+    color: #1DB954;
+}
+.fa-youtube:hover {
+    color: #FF0000;
+}
+.fa-bandcamp:hover {
+    color: #629aa9;
+}
+.fa-apple:hover {
+    color: #555555;
+}
+.fa-soundcloud:hover {
+    color: #F26F23;
+}
+.fa-bars:hover {
+    cursor: pointer;
+    color: var(--BUTTON_COLOUR);
+}
