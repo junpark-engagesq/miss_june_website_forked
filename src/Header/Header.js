@@ -1,12 +1,5 @@
 import './Header.css';
 
-//facebook
-//instagram
-//bandcamp
-//youtube
-//spotify
-//applemusic
-
 const toggleNavbar = () => {
   var navItems = document.getElementById("navItems");
   var menuIcon = document.getElementById("navBarIcon");

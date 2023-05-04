@@ -1,3 +1,7 @@
 .shows{
     border-top: 1px solid black;
 }
+
+#tour {
+    padding: 2vh 13%;
+}

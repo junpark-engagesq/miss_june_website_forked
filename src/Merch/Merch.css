@@ -1,3 +1,7 @@
+#merch {
+    padding: 2vh 13%;
+}
+
 #merchItems {
     display: grid;
     grid-column-gap: 1em;

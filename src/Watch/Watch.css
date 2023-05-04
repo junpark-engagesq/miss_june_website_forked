@@ -33,7 +33,7 @@
 .bandImage:hover{
     animation-name: tilt-shaking;
     animation-duration: 0.5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
 }
 
 @keyframes tilt-shaking {
