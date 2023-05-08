@@ -6,7 +6,7 @@ function Home() {
     <section id="home">
       <div className="home-row">
         <div id="homepageImg">
-          <img className="homeImage"src={albumCoverImageToDisplay}></img>
+          <img className="homeImage"src={albumCoverImageToDisplay} alt="Miss June Album Cover"></img>
         </div>
         <div id="homepage-right">
           <h3>STUFF HERE</h3>

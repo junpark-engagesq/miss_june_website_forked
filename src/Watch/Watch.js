@@ -18,9 +18,6 @@ function Watch() {
                 MORE VIDEOS 
             </a>
         </div>
-        <div>
-            <img className="bandImage" src="/images/band_image.png"></img>
-        </div>
     </section>
   );
 }

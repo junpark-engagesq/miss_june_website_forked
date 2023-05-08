@@ -32,8 +32,4 @@
 
 
 ++++++++   SHOWS   ++++++++
-- I think the middleText should be left aligned 
-- on smaller screens we should just 2 columns - all gig info on left, tickets button on right (instead of 3 columns)
-
-
 ++++++++   CONTACT   ++++++++
