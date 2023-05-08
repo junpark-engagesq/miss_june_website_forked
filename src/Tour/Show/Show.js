@@ -13,13 +13,12 @@ function Show(props) {
 
   return (
     <div className="show">
-      <div className="leftText">
+      <div className="showDetails">
         <p className="date"> {dayName} {dayNumber} {month} </p>
-        <p className="location"> {props.show.city} {props.show.country} </p>
-      </div>
-      <div className="middleText">
-        <p className="gigInfo"> {props.show.info} </p>
-        <p className="venue"> {props.show.venue} </p> 
+        <div className="showBottomText">
+          <p className="venue"> {props.show.venue} </p> 
+          <p className="location"> {props.show.city}, {props.show.country} </p>
+        </div>
       </div>
       <GetTicketsButton ticketURL={props.show.ticketURL} soldOut={props.show.soldOut}/>
     </div>

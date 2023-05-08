@@ -2,106 +2,80 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 15px;
-    font-size: 20px;
     text-align: left;
+    font-size: 18px;
     border-bottom: 1px black solid;
+}
+
+.showDetails {
+    width: 65%;
+}
+
+.showBottomText {
+    display: flex;
+    justify-content: space-between;
 }
 
 .show:hover {
     background-color: rgb(234, 234, 234);
 }
 
-.date {
-    font-weight: bold;
+.venue {
+    width: 60%;
+    margin-right: 15px;
 }
 
 .location {
-    font-size: 17px;
+    width: 40%;
+    white-space: nowrap;
 }
 
-.venue {
-    font-weight: bold;
-}
-
-.middleText {
-    text-align: center;
-}
 
 .gigInfo {
     color: rgb(117, 117, 118);
-    font-size: 17px;
-}
-
-.leftText {
-    font-size: 20px;
 }
 
 @media (max-width: 1024px) {
+    .showBottomText {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .location {
-        font-size: 1.1vh;
+        width: 90%;
     }
     
     .venue {
-        font-size: 1.3vh;
-    }
-    
-    
-    .gigInfo {
-        font-size: 1.1vh;
-    }
-    
-    .leftText {
-        font-size: 1.3vh;
-    }
-
-    .show {
-        font-size: 1.3vh;
-    }
-    
-    .date {
-        font-size: 1.3vh;
+        width: 90%;
     }
 }
 
 
-@media (max-width: 500px) {
-    
-    .location {
+@media (max-width: 580px) {
+    .showBottomText {
+        display: flex;
+        flex-direction: column;
         text-align: center;
-        font-size: 1.8vh;
-    }
-    
-    .venue {
-        text-align: center;
-        margin: 10px 0 0 0;
-        font-size: 2vh;
-    }
-    
-    .middleText {
-        text-align: center;
-    }
-    
-    .gigInfo {
-        text-align: center;
-        font-size: 1.8vh;
-    }
-    
-    .leftText {
-        text-align: center;
-        margin: 5px 0 0 0;
-        font-size: 1vh;
+        align-items: center;
+        margin-bottom: 15px;
     }
 
     .show {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1vh;
+        flex-flow: column;
     }
-    
-    .date {
-        font-weight: bold;
-        font-size: 2vh;
+
+    .showDetails {
+        width: 100%;
+        text-align: center;
     }
-    
+
+    .venue {
+        text-align: center;
+        margin: 0;
+    }
+
+    .location {
+        text-align: center;
+    }   
 }

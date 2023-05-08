@@ -6,28 +6,25 @@ const albumCoverImageToDisplay = "/images/BLP_Album_Cover.jpg";
 const upcomingShows = [
     {
         date : "2023-03-03", 
-        venue : "WHAMMY BAR", 
-        country : "NZ", 
+        venue : "Whammy Bar", 
+        country : "New Zealand", 
         city : "Auckland",
-        info : "Supports TBC",
         ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
         soldOut : true
     },
     {
         date : "2023-03-09", 
-        venue : "SAN FRAN", 
-        country : "NZ", 
+        venue : "San Fran", 
+        country : "New Zealand", 
         city : "Wellington",
-        info : "Supports TBC",
         ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
         soldOut : false
     },
     {
         date : "2023-03-11", 
-        venue : "WESTERN SPRINGS", 
-        country : "NZ", 
+        venue : "Outerfields Western Springs Park", 
+        country : "New Zealand", 
         city : "Auckland",
-        info : "My Chemical Romance",
         ticketURL : "www.google.com",
         soldOut : false
     }

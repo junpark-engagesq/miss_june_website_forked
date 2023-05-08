@@ -51,7 +51,7 @@
     background-position: 0 0;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .getTicketsButton {
         font-size: 1vh;
     }
@@ -64,4 +64,4 @@
         font-size: 2vh;
         margin: 5px 0;
     }
-}
+} */
