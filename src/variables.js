@@ -27,6 +27,30 @@ const upcomingShows = [
         city : "Auckland",
         ticketURL : "www.google.com",
         soldOut : false
+    },
+    {
+      date : "2023-10-13", 
+      venue : "James Mum's House", 
+      country : "New Zealand", 
+      city : "Auckland",
+      ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
+      soldOut : true
+    },
+    {
+        date : "2023-11-01", 
+        venue : "Saddam's Hiding Place", 
+        country : "طعمه جيد", 
+        city : "المهبل",
+        ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
+        soldOut : true
+    },
+    {
+        date : "2023-12-25", 
+        venue : "The Gates Of Hell", 
+        country : "Australia", 
+        city : "Geelong",
+        ticketURL : "www.google.com",
+        soldOut : false
     }
 ];
 
