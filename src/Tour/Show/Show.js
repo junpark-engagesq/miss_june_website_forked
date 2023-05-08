@@ -1,5 +1,5 @@
 import './Show.css';
-import GetTicketsButton from './GetTicketsButton/GetTicketsButton';
+import Button from '../../Button/Button';
 
 const months = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
 const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
@@ -20,7 +20,16 @@ function Show(props) {
           <p className="location"> {props.show.city}, {props.show.country} </p>
         </div>
       </div>
-      <GetTicketsButton ticketURL={props.show.ticketURL} soldOut={props.show.soldOut}/>
+
+      <div className="showButtonWrapper">
+        <Button 
+          buttonText={ props.show.soldOut ? "Sold Out":"TICKETS" }
+          URL={props.show.ticketURL} 
+          soldOut={props.show.soldOut} 
+          disabled={props.show.soldOut}
+          className={"ticketsButton " + ( props.show.soldOut ? "soldOut": "notSoldOut" )}
+        />
+      </div>
     </div>
   );
 }

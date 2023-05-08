@@ -11,6 +11,10 @@
     width: 65%;
 }
 
+.showButtonWrapper {
+    margin: auto 0;
+}
+
 .showBottomText {
     display: flex;
     justify-content: space-between;
@@ -53,6 +57,7 @@
 
 
 @media (max-width: 580px) {
+
     .showBottomText {
         display: flex;
         flex-direction: column;
@@ -63,6 +68,7 @@
 
     .show {
         flex-flow: column;
+        align-items: center;
     }
 
     .showDetails {

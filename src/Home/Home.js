@@ -10,7 +10,7 @@ function Home() {
         </div>
         <div id="homepage-right">
           <h3>STUFF HERE</h3>
-          <a href="" target="_blank" rel="norefferer" className="getTicketsButton notSoldOut">
+          <a href="" target="_blank" rel="norefferer" className="Button notSoldOut">
             OUT NOW
           </a>
         </div>

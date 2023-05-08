@@ -1,5 +1,5 @@
 /* CSS */
-.getTicketsButton {
+.Button {
     border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     box-sizing: border-box;
@@ -9,7 +9,8 @@
     font-size: 16px;
     font-weight: 800;
     line-height: 16px;
-    min-height: 40px;
+    max-height: 45px;
+    min-width: 120px;
     outline: 0;
     padding: 12px 14px;
     text-align: center;
@@ -20,6 +21,10 @@
     touch-action: manipulation;
     vertical-align: middle;
     transition: all 0.25s;
+}
+
+.ticketsButton {
+    width: 120px !important;
 }
 
 .notSoldOut {
@@ -52,7 +57,7 @@
 }
 
 /* @media (max-width: 1024px) {
-    .getTicketsButton {
+    .Button {
         font-size: 1vh;
     }
 }
@@ -60,7 +65,7 @@
 
 @media (max-width: 500px) {
 
-    .getTicketsButton {
+    .Button {
         font-size: 2vh;
         margin: 5px 0;
     }
