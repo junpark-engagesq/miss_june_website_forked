@@ -4,7 +4,7 @@
 - overall website needs cooler color pallette
 - overall needs better button response animations (lightups/hovers/colors)
 - could probably find a funner font for <p> elements
-
+- i dont think font-size should change on different screen sizes? idk
 
 ++++++++   HOME   ++++++++
 - Text should read 'Bad Luck Party' with two buttons 'Listen' and 'Buy Album' 
@@ -12,7 +12,6 @@
     - BLP cover photo on left, text on right. 
 - For small screens
     - text below album cover
-
 
 ++++++++   NAV   ++++++++
 - need cool animation for hamburger menu and X switch (see idles)
@@ -22,14 +21,11 @@
     - socials links should be in header (not in popup nav screen)
 
 ++++++++   WATCH   ++++++++
-- get better band photo and crop job 
-- make animation smoother
 
 ++++++++   MERCH   ++++++++
 - style each merch item (Font/spacing/etc.)
 - for phone screen
     - only display 3(?) merch items (and have a "VIEW MORE" button that shows more merch)
-
 
 ++++++++   SHOWS   ++++++++
 ++++++++   CONTACT   ++++++++
