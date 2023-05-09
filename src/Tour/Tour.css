@@ -8,7 +8,7 @@
 
 
 .bandImage{
-    width: 500px;
+    width: 50%;
     margin-bottom: 30px;
 }
 
@@ -25,3 +25,19 @@
     75% { transform: rotate(-0.5deg); }
     100% { transform: rotate(0deg); }
   }
+
+
+@media (max-width: 1024px) {
+    .bandImage{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .bandImage{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

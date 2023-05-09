@@ -2,7 +2,6 @@
 - Side margins are too large 
 - Home page text shouldn't be same font as section titles
 - overall website needs cooler color pallette
-- overall needs better button response animations (lightups/hovers/colors)
 - could probably find a funner font for <p> elements
 - i dont think font-size should change on different screen sizes? idk
 
