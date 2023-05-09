@@ -7,7 +7,7 @@ const modOperator = (num, mod) => {
 }
 
 function Watch() {
-    const [currentIndex, setCurrentIndex] = useState(1);
+    const [currentIndex, setCurrentIndex] = useState(0);
     const changeVideo = (prevOrNext) => {
         var increment = (prevOrNext == "prev") ? -1 : 1;
         setCurrentIndex(modOperator(currentIndex + increment, videosToDisplay.length));
