@@ -58,9 +58,12 @@ nav #navItems li a {
     font-size: 18px;
 }
 
+
 #navBarIcon {
     margin: 10px;
 }
+
+
 
 @media (max-width: 1024px) {
     #socials {
@@ -85,6 +88,7 @@ nav #navItems li a {
         margin: 20px 10px;
     }
 
+
     nav #navItems li a {
         font-size: 2.5vh;
     }
@@ -101,7 +105,7 @@ nav #navItems li a {
         top: 0px;
         right: 0px;
         left: 0px;
-        height: 50vh;
+        height: 105vh;
         width: 100%;
         padding: 0;
         box-shadow: 0 0 30px 0 rgba(0, 0, 0, .15);
@@ -126,8 +130,74 @@ nav #navItems li a {
     }
 
     .mobileSocialIcon {
-        padding: 10px 10px;
+        padding: 20px 12px;
+        font-size: 2.5vh;
     }
+
+    /* Animation */
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.showBackground {
+    animation-name: fade-in;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+} 
+
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  li {
+    animation-name: slide-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  #mobileSocials  {
+    animation-name: slide-in;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  
+  .spin {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  .hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
 }
 
 .fa-facebook-f:hover {

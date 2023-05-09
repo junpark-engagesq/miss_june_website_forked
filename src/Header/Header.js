@@ -4,12 +4,17 @@ const toggleNavbar = () => {
   var navItems = document.getElementById("navItems");
   var menuIcon = document.getElementById("navBarIcon");
   var navbar = document.getElementById("navbar");
+
   
+
   navbar.classList.toggle("showBackground");
   navItems.classList.toggle("hidden");
   menuIcon.classList.toggle("fa-bars");
   menuIcon.classList.toggle("fa-x");
+  menuIcon.classList.toggle('spin');
 }
+
+
 
 function Header() {
   return (
@@ -40,11 +45,11 @@ function Header() {
       <nav id="navbar" className="">
         <ul>
         <span id="navItems" className="hidden">
-          <li><a className="navItem" href="#">HOME</a></li>
-          <li><a className="navItem" href="#watch">WATCH</a></li>
-          <li><a className="navItem" href="#merch">MERCH</a></li>
-          <li><a className="navItem" href="#tour">TOURS</a></li>
-          <li><a className="navItem" href="#contact">CONTACT</a></li>
+          <li><a className="navItem" id="navListItem" href="#" onClick={() => toggleNavbar()}>HOME </a></li>
+          <li><a className="navItem" id="navListItem" href="#watch" onClick={() => toggleNavbar()}>WATCH</a></li>
+          <li><a className="navItem" id="navListItem" href="#merch" onClick={() => toggleNavbar()}>MERCH</a></li>
+          <li><a className="navItem" id="navListItem" href="#tour" onClick={() => toggleNavbar()}>TOURS</a></li>
+          <li><a className="navItem" id="navListItem" href="#contact" onClick={() => toggleNavbar()}>CONTACT</a></li>
           <span id="mobileSocials">
         <a class="mobileSocialIcon" href="https://www.facebook.com/missjunenz/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-facebook-f icon"></i></a>
         <a class="mobileSocialIcon" href="https://www.instagram.com/ihatemissjune/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-instagram" icon></i></a>
@@ -56,7 +61,8 @@ function Header() {
       </span>
         </span>
         </ul>    
-        <i id="navBarIcon" className="fa-solid fa-lg fa-bars icon" onClick={() => toggleNavbar()}></i>   
+        <i id="navBarIcon" className="fa-solid fa-lg fa-bars icon" onClick={() => toggleNavbar()}></i>
+        
       </nav>
     </header>
   );
