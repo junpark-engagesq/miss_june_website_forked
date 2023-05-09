@@ -15,13 +15,13 @@ function Header() {
   return (
     <header id="header">
       <span id="socials">
-        <a class="socialIcon" href="https://www.facebook.com/missjunenz/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-facebook-f icon"></i></a>
-        <a class="socialIcon" href="https://www.instagram.com/ihatemissjune/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-instagram" icon></i></a>
-        <a class="socialIcon" href="https://open.spotify.com/artist/5EVVKA7mtSCAgk1kDhAEFp" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-spotify icon"></i></a>
-        <a class="socialIcon" href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-youtube icon"></i></a>
-        <a class="socialIcon" href="https://missjune.bandcamp.com/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-bandcamp icon"></i></a>
-        <a class="socialIcon" href="https://music.apple.com/nz/artist/miss-june/668816836" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-apple icon"></i></a>
-        <a class="socialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
+        <a className="socialIcon" href="https://www.facebook.com/missjunenz/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-facebook-f icon"></i></a>
+        <a className="socialIcon" href="https://www.instagram.com/ihatemissjune/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-instagram" icon></i></a>
+        <a className="socialIcon" href="https://open.spotify.com/artist/5EVVKA7mtSCAgk1kDhAEFp" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-spotify icon"></i></a>
+        <a className="socialIcon" href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-youtube icon"></i></a>
+        <a className="socialIcon" href="https://missjune.bandcamp.com/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-bandcamp icon"></i></a>
+        <a className="socialIcon" href="https://music.apple.com/nz/artist/miss-june/668816836" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-apple icon"></i></a>
+        <a className="socialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
       </span>
 
       {/* <nav id="navbar" className="">
@@ -46,13 +46,13 @@ function Header() {
           <li><a className="navItem" href="#tour">TOURS</a></li>
           <li><a className="navItem" href="#contact">CONTACT</a></li>
           <span id="mobileSocials">
-        <a class="mobileSocialIcon" href="https://www.facebook.com/missjunenz/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-facebook-f icon"></i></a>
-        <a class="mobileSocialIcon" href="https://www.instagram.com/ihatemissjune/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-instagram" icon></i></a>
-        <a class="mobileSocialIcon" href="https://open.spotify.com/artist/5EVVKA7mtSCAgk1kDhAEFp" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-spotify icon"></i></a>
-        <a class="mobileSocialIcon" href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-youtube icon"></i></a>
-        <a class="mobileSocialIcon" href="https://missjune.bandcamp.com/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-bandcamp icon"></i></a>
-        <a class="mobileSocialIcon" href="https://music.apple.com/nz/artist/miss-june/668816836" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-apple icon"></i></a>
-        <a class="mobileSocialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
+        <a className="mobileSocialIcon" href="https://www.facebook.com/missjunenz/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-facebook-f icon"></i></a>
+        <a className="mobileSocialIcon" href="https://www.instagram.com/ihatemissjune/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-instagram" icon></i></a>
+        <a className="mobileSocialIcon" href="https://open.spotify.com/artist/5EVVKA7mtSCAgk1kDhAEFp" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-spotify icon"></i></a>
+        <a className="mobileSocialIcon" href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-youtube icon"></i></a>
+        <a className="mobileSocialIcon" href="https://missjune.bandcamp.com/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-bandcamp icon"></i></a>
+        <a className="mobileSocialIcon" href="https://music.apple.com/nz/artist/miss-june/668816836" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-apple icon"></i></a>
+        <a className="mobileSocialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
       </span>
         </span>
         </ul>    

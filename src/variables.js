@@ -1,4 +1,12 @@
-const videoToDisplay = "https://www.youtube.com/embed/RZg4YW95aGU"; // Anomaly
+const videosToDisplay = [
+    "https://www.youtube.com/embed/RZg4YW95aGU", // Anomaly
+    "https://www.youtube.com/embed/eblo1EKr8Kg", // Orchid
+    "https://www.youtube.com/embed/v82rNqVLD68", // Enemies
+    "https://www.youtube.com/embed/fUy-RDanfPA", // Best Girl
+    "https://www.youtube.com/embed/oFRhIvIu-pg", // Twitch
+    "https://www.youtube.com/embed/jywXa6sNX3w"  // Anxiety On Repeat
+];
+
 const albumCoverImageToDisplay = "/images/BLP_Album_Cover.jpg"; 
 // #~#~#~#~#~#~#~#~#~#~#~# SHOWS #~#~#~#~#~#~#~#~#~#~#~#
 // date format: YYYY-MM-DD
@@ -103,4 +111,4 @@ const currentMerch = [
   },
 ];
 
-export { videoToDisplay, currentMerch, upcomingShows, albumCoverImageToDisplay };
+export { videosToDisplay, currentMerch, upcomingShows, albumCoverImageToDisplay };

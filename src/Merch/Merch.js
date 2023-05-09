@@ -5,7 +5,6 @@ import { currentMerch } from '../variables';
 
 var totalMerchItems = currentMerch.length;
 
-
 function Merch() {
   const [numItemsToDisplay, setNumItemsToDisplay] = useState(3);
 
@@ -19,7 +18,8 @@ function Merch() {
         <div id="merchItems">
           {currentMerch.map((merchItem, index) => {
             if( index < numItemsToDisplay ) return <MerchItem item={merchItem} key={index} />
-          })}
+            })
+          }
         </div>
         { (numItemsToDisplay < totalMerchItems) && 
           <button className="Button" onClick={changeNumberOfDisplayedItems}>
