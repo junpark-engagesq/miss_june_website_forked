@@ -11,7 +11,6 @@ function Watch() {
     const changeVideo = (prevOrNext) => {
         var increment = (prevOrNext == "prev") ? -1 : 1;
         setCurrentIndex(modOperator(currentIndex + increment, videosToDisplay.length));
-        console.log(currentIndex);
     }
 
     return (
@@ -19,7 +18,7 @@ function Watch() {
         <h1>WATCH</h1>
         <div id="video">
             <iframe width="720" height="405" src={videosToDisplay[currentIndex]}
-                    title="YouTube video player" frameBorder="0"
+                    title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                         gyroscope; picture-in-picture; web-share" 
                     allowFullScreen>
