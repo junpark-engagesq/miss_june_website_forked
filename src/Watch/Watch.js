@@ -11,26 +11,44 @@ function Watch() {
     const changeVideo = (prevOrNext) => {
         var increment = (prevOrNext == "prev") ? -1 : 1;
         setCurrentIndex(modOperator(currentIndex + increment, videosToDisplay.length));
+        var n = currentIndex;
+        var input = "#indexIndicator :nth-child(" + (n-1) + ")"
+        var ele = document.querySelector( input );
+        ele.style["background-color"] = "red";
     }
 
     return (
     <section id="watch">
         <h1>WATCH</h1>
+        
         <div id="video">
+            {/* <div className="videoControls">
+                <a className="videoControl" onClick={() => changeVideo('prev')}>
+                    <i class="fa-solid fa-angle-left fa-2xl"></i>
+                </a>
+            </div> */}
+
             <iframe width="720" height="405" src={videosToDisplay[currentIndex]}
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                         gyroscope; picture-in-picture; web-share" 
                     allowFullScreen>
             </iframe>
+
+            {/* <div className="videoControls">
+                <a className="videoControl" onClick={() => changeVideo('next')}>
+                    <i class="fa-solid fa-angle-right fa-2xl"></i>
+                </a>
+            </div> */}
         </div>
-        <button className="Button" onClick={() => changeVideo('prev')}>
-              PREVIOUS
-          </button>
-        <button className="Button" onClick={() => changeVideo('next')}>
-              NEXT
-        </button>
-        <p>I'll make the prev/next buttons look pretty later</p>
+        
+        {/* <div id="indexIndicator"> 
+            {videosToDisplay.map((video, index) => {
+                return <hr className="videoIndexLine"/>
+            })
+          }
+        </div> */}
+
         <div id='moreVideos'>
             <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="Button notSoldOut">
                 MORE VIDEOS 

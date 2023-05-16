@@ -6,7 +6,7 @@ const openInNewTab = (url) => {
 
 function Button(props) {
     return (
-        <button className={ "Button " + props.className }  onClick={ () => openInNewTab(props.URL)} disabled={props.disabled}>
+        <button className={ "Button " + props.className } onClick={ () => openInNewTab(props.URL)} disabled={props.disabled}>
             {props.buttonText}
         </button>
     );

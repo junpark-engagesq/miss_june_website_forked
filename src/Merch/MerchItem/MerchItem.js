@@ -7,7 +7,7 @@ function MerchItem(props) {
             <img className="merchImage" src={props.item.imageURL}/>
             <br />
             {props.item.name} 
-            </a>
+         </a>
     </div>
   );
 }

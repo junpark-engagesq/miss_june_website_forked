@@ -1,5 +1,32 @@
 #video {
-    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.videoControls {
+    margin: auto 0;
+}
+
+.videoControl {
+    color: #e2e2e2;
+}
+
+.videoControl:hover {
+    color: #868686;
+}
+
+#moreVideos {
+    margin: 40px 0;
+} 
+
+.videoIndexLine {
+    display: inline-block;
+    width: 30px;
+    margin: 1%;
+    height: 5px;
+    background-color: #e2e2e2;
+    border: none;
 }
 
 
@@ -11,7 +38,7 @@
 }
 @media (max-width: 500px) {
 
-    #video {
+     #video {
         margin: 0;
     }
     iframe {
@@ -19,8 +46,5 @@
         height: 300px;
     }
     
-    #moreVideos .Button {
-        font-size: 16px;
-        margin: 40px 0;
-    }
+    
 }

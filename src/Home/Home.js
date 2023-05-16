@@ -9,7 +9,8 @@ function Home() {
           <img className="homeImage"src={albumCoverImageToDisplay} alt="Miss June Album Cover"></img>
         </div>
         <div id="homepage-right">
-          <h3>STUFF HERE</h3>
+          <h2>MISS JUNE</h2>
+          <h2>BAD LUCK PARTY</h2>
           <a href="" target="_blank" rel="norefferer" className="Button notSoldOut">
             OUT NOW
           </a>
