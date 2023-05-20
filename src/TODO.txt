@@ -15,6 +15,9 @@
 - Desktop view
     - add underline on current viewed nav item as a tracker ting
     - add hovers
+- On section click - scroll to where the color changes for that section (so u can see title)
+- Add About to Nav
+- Fix mobile nav socials icons
 
 ++++++++   WATCH   ++++++++
 
@@ -22,9 +25,11 @@
 - style each merch item (Font/spacing/etc.)
 - for phone screen
     - display 2 items per row - try it out
+- sold out layover image or text
 
 ++++++++   SHOWS   ++++++++
 - fix hover over show 
+- default no show message - follow us here for announcement 
 
 ++++++++   ABOUT   ++++++++
 - margin top title 

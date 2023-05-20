@@ -28,6 +28,7 @@ function Header() {
           <li><a className="navItem" id="navListItem" href="#watch" onClick={() => toggleNavbar()}>WATCH</a></li>
           <li><a className="navItem" id="navListItem" href="#merch" onClick={() => toggleNavbar()}>MERCH</a></li>
           <li><a className="navItem" id="navListItem" href="#tour" onClick={() => toggleNavbar()}>TOURS</a></li>
+          <li><a className="navItem" id="navListItem" href="#about" onClick={() => toggleNavbar()}>ABOUT</a></li>
           <li><a className="navItem" id="navListItem" href="#contact"onClick={() => toggleNavbar()}>CONTACT</a></li>
         </ul> 
       </nav>

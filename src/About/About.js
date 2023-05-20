@@ -10,7 +10,9 @@ function About() {
             <img className="bandImage" src="/images/band_image.png"></img>
         </div>
         <div id="bio">
-            <p>{bandBiography}</p>
+            {bandBiography.map((line, index) =>
+              <p className="bioSentence">{line}</p> 
+              )}
         </div>
       </div>
     </section>

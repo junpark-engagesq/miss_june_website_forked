@@ -1,4 +1,15 @@
 #about {
-    background-color: #D32719;
+    background-image: url("/public/textures/redBgUpdated.png");
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
+}
+
+#bio {
+    text-align: left;
+    font-size: 18px;
+}
+
+.bioSentence {
+    margin-bottom: 25px;
 }
