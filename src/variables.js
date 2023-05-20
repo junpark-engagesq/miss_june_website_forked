@@ -115,7 +115,12 @@ const currentMerch = [
   },
 ];
 
-const bandBiography = "This is our band bio.";
+const bandBiography = ["Miss June is what happens when angst matures. Raised in the embers of punk rock, Miss June harness jagged, noisy guitars filtered through the unrivalled stage presence of frontperson Annabel Liddell, unafraid, unapologetic and ready to wake up the music scene.",
+                        "Described as \"some unholy union between Sonic Youth and Le Tigre\", the NZ four piece, completed by the music school alumni recruited by Liddell – guitarist Jun Park, bass player Chris Marshall and drummer Tom Leggett – has built a reputation for fierce, formidable and head-spinning live shows.",
+                        "Miss June have caught the attention of acts like The Foo Fighters, Shellac, Wolf Alice, Idles and Die! Die! Die!, who have all eagerly harnessed their support on stage.",
+                        "Combining elements of post-punk, no-wave and rock, Miss June hold close their DIY roots while creating a blistering, reckless sound full of melodic hooks and overdriven riffs that are at once immediately recognizable and yet entirely their own.",
+                        "Miss June are fast growing into a force to be reckoned with. Miss June demand attention. There has never been a better time for Miss June to make noise. Get in now. Or miss out.",
+];
 
 export { videosToDisplay, 
          currentMerch, 

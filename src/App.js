@@ -16,7 +16,7 @@ function App() {
       <Watch />
       <Merch />
       <Tour />
-      <About />
+      {/* <About /> */}
       <Contact />
       <Footer />
     </div>

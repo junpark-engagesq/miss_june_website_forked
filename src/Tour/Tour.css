@@ -1,7 +1,10 @@
 #tour {
-    background-color: #D32719;
+    background-color: #c72718;
     color: white;
     padding-bottom: 50px;
+    background-image: url("/public/textures/redBgUpdated.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .shows {
@@ -19,6 +22,15 @@
     animation-iteration-count: infinite;
 }
 
+#bio {
+    text-align: left;
+    font-size: 18px;
+}
+
+.bioSentence {
+    margin-bottom: 25px;
+}
+
 @media (max-width: 1024px) {
     .bandImage{
         width: 70%;
@@ -31,4 +43,12 @@
         width: 100%;
         margin-bottom: 30px;
     }
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(0.5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-0.5deg); }
+    100% { transform: rotate(0deg); }
 }
