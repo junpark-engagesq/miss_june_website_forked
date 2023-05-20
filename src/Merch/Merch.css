@@ -1,5 +1,6 @@
 #merch {
-    padding: 2vh 13%;
+    background: url("/public/textures/background-texture-1.png") no-repeat;
+    background-size: cover;
 }
 
 #merchItems {
@@ -17,3 +18,6 @@
     }
 }
 
+.fa-arrow-down {
+    margin-left: 10px;
+}

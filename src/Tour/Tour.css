@@ -1,11 +1,12 @@
-.shows{
+#tour {
+    background-color: #D32719;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.shows {
     border-top: 1px solid black;
 }
-
-#tour {
-    padding: 2vh 13%;
-}
-
 
 .bandImage{
     width: 50%;
@@ -18,22 +19,12 @@
     animation-iteration-count: infinite;
 }
 
-@keyframes tilt-shaking {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(0.5deg); }
-    50% { transform: rotate(0eg); }
-    75% { transform: rotate(-0.5deg); }
-    100% { transform: rotate(0deg); }
-  }
-
-
 @media (max-width: 1024px) {
     .bandImage{
         width: 70%;
         margin-bottom: 30px;
     }
 }
-
 
 @media (max-width: 580px) {
     .bandImage{

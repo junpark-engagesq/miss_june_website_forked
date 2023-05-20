@@ -7,6 +7,10 @@
     border-bottom: 1px black solid;
 }
 
+.show:hover {
+    background-color: rgb(234, 234, 234);
+}
+
 .showDetails {
     width: 65%;
 }
@@ -20,8 +24,8 @@
     justify-content: space-between;
 }
 
-.show:hover {
-    background-color: rgb(234, 234, 234);
+.date {
+    font-weight: bold;
 }
 
 .venue {
@@ -33,7 +37,6 @@
     width: 40%;
     white-space: nowrap;
 }
-
 
 .gigInfo {
     color: rgb(117, 117, 118);
@@ -48,6 +51,8 @@
 
     .location {
         width: 90%;
+        font-size: 15px;
+        margin-top: 2px;
     }
     
     .venue {

@@ -5,13 +5,12 @@ import { upcomingShows } from '../variables';
 function Tour() {
   return (
     <section id="tour">
+      <div className="section-padding">
         <h1>SHOWS</h1>
-        <div>
-            <img className="bandImage" src="/images/band_image.png"></img>
-        </div>
         <div className="shows">
           {upcomingShows.map((singleShow, index) => <Show show={singleShow} key={index} />)}
         </div>
+      </div>
     </section>
   );
 }

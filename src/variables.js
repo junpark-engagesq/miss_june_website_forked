@@ -8,9 +8,13 @@ const videosToDisplay = [
 ];
 
 const albumCoverImageToDisplay = "/images/BLP_Album_Cover.jpg"; 
+const albumStreamURLAmazon = "https://music.amazon.com/albums/B07SR7VY9B";
+const albumStreamURLSpotify = "https://open.spotify.com/album/5dISG6rMmqwneX0eErsA9a";
+const albumStreamURLAppleMusic = "https://music.apple.com/us/album/bad-luck-party/1467093347";
+const albumBuyLink = "https://www.flyingnun.co.nz/products/miss-june-bad-luck-party-2019"
+
 // #~#~#~#~#~#~#~#~#~#~#~# SHOWS #~#~#~#~#~#~#~#~#~#~#~#
 // date format: YYYY-MM-DD
-
 const upcomingShows = [
     {
         date : "2023-03-03", 
@@ -111,4 +115,15 @@ const currentMerch = [
   },
 ];
 
-export { videosToDisplay, currentMerch, upcomingShows, albumCoverImageToDisplay };
+const bandBiography = "This is our band bio.";
+
+export { videosToDisplay, 
+         currentMerch, 
+         upcomingShows, 
+         albumCoverImageToDisplay,
+         albumStreamURLAmazon,
+         albumStreamURLSpotify,
+         albumStreamURLAppleMusic,
+         albumBuyLink,
+         bandBiography
+};

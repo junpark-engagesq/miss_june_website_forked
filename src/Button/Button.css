@@ -23,25 +23,21 @@
     transition: all 0.25s;
 }
 
-.ticketsButton {
-    width: 120px !important;
-}
-
-.notSoldOut {
+.defaultButton {
     background: var(--BUTTON_COLOUR);
     border: 1px solid var(--BUTTON_COLOUR);
     color: #FFFFFF;
 }
 
-.notSoldOut:hover,
-.notSoldOut:active {
+.defaultButton:hover,
+.defaultButton:active {
     color: white;
     background-color: #ca0000;
     border: 1px solid #ca0000;
     box-shadow: rgba(0, 0, 0, 0.1) 2px 4px 8px;
 }
 
-.notSoldOut:active {
+.defaultButton:active {
     opacity: .5;
 }
 
@@ -70,3 +66,15 @@
         margin: 5px 0;
     }
 } */
+
+.BuyAlbumButton {
+    background-color: red;
+    color:white;
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+.BuyAlbumButton:hover {
+    color: white;
+    transform: scale(1.208);
+}

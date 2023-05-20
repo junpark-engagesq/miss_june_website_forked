@@ -1,5 +1,6 @@
 #contact {
-    margin-bottom: 50px;
+    background: url("/public/textures/background-texture-1.png") no-repeat;
+    background-size: cover;
 }
 
 h3 {

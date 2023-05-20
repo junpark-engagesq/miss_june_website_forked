@@ -1,7 +1,11 @@
-#video {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+#watch {
+    background-color: rgb(1, 1, 1);
+    color: white;
+    vertical-align: center;
+}
+
+.content-wrapper {
+    margin: 100px auto;
 }
 
 .videoControls {
@@ -23,28 +27,13 @@
 .videoIndexLine {
     display: inline-block;
     width: 30px;
-    margin: 1%;
     height: 5px;
     background-color: #e2e2e2;
     border: none;
 }
 
-
-@media (max-width: 1024px) {
-    iframe {
-        width: 100%;
-        height: 400px;
-    }
-}
-@media (max-width: 500px) {
-
-     #video {
-        margin: 0;
-    }
-    iframe {
-        width: 100%;
-        height: 300px;
-    }
-    
-    
+iframe {
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
 }

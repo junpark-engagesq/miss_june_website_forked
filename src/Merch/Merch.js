@@ -14,7 +14,8 @@ function Merch() {
 
   return (
     <section id="merch">
-        <h1>MERCH</h1>
+      <div className="section-padding">
+        <h1 className="section-title">MERCH</h1>
         <div id="merchItems">
           {currentMerch.map((merchItem, index) => {
             if( index < numItemsToDisplay ) return <MerchItem item={merchItem} key={index} />
@@ -22,10 +23,12 @@ function Merch() {
           }
         </div>
         { (numItemsToDisplay < totalMerchItems) && 
-          <button className="Button" onClick={changeNumberOfDisplayedItems}>
+          <button className="Button defaultButton showMoreButton" onClick={changeNumberOfDisplayedItems}>
               SHOW MORE
+              <i class="fa-solid fa-arrow-down"></i>
           </button>
         }
+      </div>
     </section>
   );
 }
