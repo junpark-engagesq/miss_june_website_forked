@@ -12,7 +12,7 @@ function Home() {
         <div id="homepage-right">
           <div id="album-content">
             <img className="miss-june-home-logo" src="/images/miss-june-logo.png"></img>
-            <p id="albumQuote">Lyrical quote from the album goes here...</p>
+            <p id="albumQuote"></p>
             <a href={albumBuyLink} target="_blank" rel="norefferer" className="Button hover-grow BuyAlbumButton">
               OUT NOW
             </a>
