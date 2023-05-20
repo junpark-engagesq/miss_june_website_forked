@@ -1,4 +1,3 @@
-
 #header {
     position: fixed;
     height: 35px;
@@ -12,7 +11,6 @@
     align-items: center;
     z-index: 99;
     background-color: white;
-    /* box-shadow: 0px 0px 5px 0px #050505 */
 }
 
 nav {
@@ -25,13 +23,12 @@ nav {
     height: 100%;
   }
 
-  
 #mobileSocials {
     padding: 15px;
 }
 
 .mobileSocialIcon {
-    padding: 15px;
+    margin: 15px;
 }
 
 nav ul {
@@ -51,7 +48,6 @@ nav #navItems li a {
     font-size: 18px;
 }
 
-
 #navBarIcon {
     display: none;
 }
@@ -60,14 +56,9 @@ nav #navItems li a {
     display: none;
 }
 
-
-
-
 /* Tablet Responsiveness */
 
 @media (max-width: 1024px) {
-
-
     .hidden {
         visibility:hidden; 
     }
@@ -84,7 +75,6 @@ nav #navItems li a {
         width: 200px;
     }
 
-    
     #header {
         margin: 0;
         z-index: 999;
@@ -160,7 +150,6 @@ nav #navItems li a {
         animation-name: fade-in;
         animation-duration: 0.4s;
         animation-timing-function: ease-in-out;
-
     }  
 
     @keyframes slide-in {
@@ -174,21 +163,12 @@ nav #navItems li a {
         }
     }
 
-
     li {
         animation-name: slide-in;
         animation-duration: 1.5s;
         animation-timing-function: ease-in-out;
 
     }
-
-    /* #mobileSocials  {
-        animation-name: slide-in;
-        animation-duration: 1.8s;
-        animation-timing-function: ease-in-out;
-
-    }  */
-
 
     @keyframes spin {
         from {
@@ -205,20 +185,9 @@ nav #navItems li a {
         animation-timing-function: ease-out;
 
     }
-
-    /* .hidden {
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out;
-
-    } */
 }
 
 @media (max-width : 500px) {
-
- 
-
-   
-
 }
 
 /* HOVER EFFECTS SOCIALS */

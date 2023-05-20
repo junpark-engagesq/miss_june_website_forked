@@ -55,9 +55,10 @@
     display: none;
 }
 
-.logo-test {
+.miss-june-home-logo {
     width: 50%;
 }
+
 @media (max-width: 1024px) {
     .homeImage {
         margin-top: 1em;
@@ -80,6 +81,10 @@
 
     #homepage-right{
         width: 90%;
+    }
+
+    .miss-june-home-logo {
+        display: none;
     }
 }
 

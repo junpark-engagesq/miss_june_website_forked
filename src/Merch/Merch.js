@@ -7,7 +7,6 @@ var totalMerchItems = currentMerch.length;
 
 function Merch() {
   const [numItemsToDisplay, setNumItemsToDisplay] = useState(3);
-
   const changeNumberOfDisplayedItems = () => {
       setNumItemsToDisplay(Math.min(totalMerchItems, numItemsToDisplay + 3));
   };

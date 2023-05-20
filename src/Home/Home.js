@@ -11,9 +11,7 @@ function Home() {
         </div>
         <div id="homepage-right">
           <div id="album-content">
-            {/* <h2 className="album-header">MISS JUNE</h2> */}
-            {/* <h2 className="album-header">BAD LUCK PARTY</h2> */}
-            <img className="logo-test" src="/images/miss-june-logo.png"></img>
+            <img className="miss-june-home-logo" src="/images/miss-june-logo.png"></img>
             <p id="albumQuote">Lyrical quote from the album goes here...</p>
             <a href={albumBuyLink} target="_blank" rel="norefferer" className="Button hover-grow BuyAlbumButton">
               OUT NOW

@@ -1,30 +1,29 @@
 ++++++++   General   ++++++++
-- Side margins are too large 
-- Home page text shouldn't be same font as section titles
-- overall website needs cooler color pallette
-- could probably find a funner font for <p> elements
-- i dont think font-size should change on different screen sizes? idk
+- find good fonts 
+- solve the center section problem and lock titles into place 
+- add proper data
+- style all buttons 
 
 ++++++++   HOME   ++++++++
-- Text should read 'Bad Luck Party' with two buttons 'Listen' and 'Buy Album' 
-- For big screens 
-    - BLP cover photo on left, text on right. 
-- For small screens
-    - text below album cover
 
 ++++++++   NAV   ++++++++
-- need cool animation for hamburger menu and X switch (see idles)
+- Finish Animation
 - phone screen 
-    - nav should take up entire screen (see idles) 
-    - Miss June at the top of nav 
-    - socials links should be in header (not in popup nav screen)
+    - add logo
+    - add coloring
 
 ++++++++   WATCH   ++++++++
 
 ++++++++   MERCH   ++++++++
 - style each merch item (Font/spacing/etc.)
 - for phone screen
-    - only display 3(?) merch items (and have a "VIEW MORE" button that shows more merch)
+    - display 2 items per row - try it out
 
 ++++++++   SHOWS   ++++++++
+
+++++++++   ABOUT   ++++++++
+- margin top title 
+- get proper bio 
+- add padding to sides
+
 ++++++++   CONTACT   ++++++++

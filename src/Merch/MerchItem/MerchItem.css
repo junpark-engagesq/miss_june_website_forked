@@ -3,10 +3,6 @@ a {
    text-decoration: none;
 }
 
-a:hover {
-    color: red;
-}
-
 .merchImage {
     width: 100%;
     min-width: 120px;
