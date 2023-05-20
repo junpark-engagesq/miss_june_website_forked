@@ -1,9 +1,9 @@
 import './Contact.css';
+import Footer from '../Footer/Footer.js';
 
 function Contact() {
   return (
     <section id="contact">
-      <div className="section-padding">
         <h1>CONTACT</h1>
 
         <h3>MANAGEMENT</h3>
@@ -22,7 +22,7 @@ function Contact() {
 
         <h3>LABEL</h3>
         <p>Frenchkiss Records</p>
-      </div>
+      <Footer />
     </section>
   );
 }

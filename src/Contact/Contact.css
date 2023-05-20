@@ -2,6 +2,7 @@
     background: url("/public/textures/background-texture-1-updated.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding: 48px 16px 0;
 }
 
 h3 {

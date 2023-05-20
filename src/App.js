@@ -16,9 +16,7 @@ function App() {
       <Watch />
       <Merch />
       <Tour />
-      {/* <About /> */}
       <Contact />
-      <Footer />
     </div>
   );
 }
