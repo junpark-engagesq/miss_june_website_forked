@@ -3,6 +3,7 @@
 - solve the center section problem and lock titles into place 
 - add proper data
 - load in animation for all sections
+- white backgrounds on text items with white/spotty texture? 
 
 ++++++++   HOME   ++++++++
 

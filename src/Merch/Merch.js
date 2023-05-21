@@ -10,7 +10,7 @@ function Merch() {
   const width  = ( window.innerWidth || document.documentElement.clientWidth || 
   document.body.clientWidth );
   var incrementAmount = 3;
-  if( width < 1023 ) incrementAmount = 2;
+  if( width < 540 ) incrementAmount = 2;
 
   const [numItemsToDisplay, setNumItemsToDisplay] = useState(( incrementAmount == 2) ? 4 : 3);
   const changeNumberOfDisplayedItems = () => {

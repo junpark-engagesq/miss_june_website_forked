@@ -11,6 +11,8 @@
 
 .merchItem {
     width: 200px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
 }
 
 .merchItem-name {
