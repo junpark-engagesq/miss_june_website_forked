@@ -1,7 +1,6 @@
 ++++++++   General   ++++++++
 - find good fonts 
 - solve the center section problem and lock titles into place 
-- add proper data
 - load in animation for all sections
 - white backgrounds on text items with white/spotty texture? 
 
@@ -9,13 +8,9 @@
 
 ++++++++   NAV   ++++++++
 - Finish Animation
-- phone screen 
-    - add logo
-    - add coloring
 - Desktop view
     - add underline on current viewed nav item as a tracker ting
     - add hovers
-- On section click - scroll to where the color changes for that section (so u can see title)
 
 ++++++++   WATCH   ++++++++
 
@@ -25,7 +20,8 @@
 
 ++++++++   ABOUT   ++++++++
 - margin top title 
-- get proper bio 
 
 ++++++++   CONTACT   ++++++++
-make full view height
+
+Before Pushing Live:
+- add proper data
