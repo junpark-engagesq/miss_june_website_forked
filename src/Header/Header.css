@@ -21,7 +21,6 @@ nav {
     font-weight: 500;
     width: 100%;
     height: 100%;
-    /* Test */
   }
 
 
@@ -124,17 +123,6 @@ nav #navItems li a {
         font-size: 3em;
         margin: 0.5em;
     }
-
-    /* #mobileSocialsContainer {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: 98;
-    } */
 
     #mobileSocials {
         display: flex;
