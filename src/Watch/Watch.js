@@ -50,7 +50,7 @@ function Watch() {
             </div> */}
 
                 <div id='moreVideos'>
-                    <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="Button defaultButton moreVideosButton">
+                    <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="Button moreVideosButton">
                         MORE VIDEOS 
                     </a>
                 </div>

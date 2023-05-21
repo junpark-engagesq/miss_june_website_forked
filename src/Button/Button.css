@@ -1,7 +1,5 @@
-/* CSS */
 .Button {
     border-radius: 2px;
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
@@ -20,61 +18,57 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-    transition: all 0.25s;
-}
-
-.defaultButton {
-    background: var(--BUTTON_COLOUR);
-    border: 1px solid var(--BUTTON_COLOUR);
-    color: #FFFFFF;
-}
-
-.defaultButton:hover,
-.defaultButton:active {
-    color: white;
     background-color: #ca0000;
     border: 1px solid #ca0000;
-    box-shadow: rgba(0, 0, 0, 0.1) 2px 4px 8px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    color: white;
+    transition: all 0.5s;
 }
 
-.defaultButton:active {
+.Button:hover,
+.Button:active {
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    transform: scale(1.108);
+}
+
+.Button:active {
     opacity: .5;
 }
 
-.SoldOut {
-    background-color: #5e5e5e;
-    color: black;
-}
-
-.SoldOut:hover,
-.SoldOut:active {
-    background-color: #5e5e5e;
-    background-position: 0 0;
-}
-
-/* @media (max-width: 1024px) {
-    .Button {
-        font-size: 1vh;
-    }
-}
-
-
-@media (max-width: 500px) {
-
-    .Button {
-        font-size: 2vh;
-        margin: 5px 0;
-    }
-} */
-
 .BuyAlbumButton {
-    background-color: red;
-    color:white;
-    transform: scale(1.1);
-    transition: all ease 1s;
+    transform: scale(1.108);
+    box-shadow: none;
 }
 
 .BuyAlbumButton:hover {
     color: white;
     transform: scale(1.208);
+    box-shadow: none;
+}
+
+.moreVideosButton {
+    background-color: #ca0000;
+    border: 1px solid #ca0000;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    color: white;
+    transition: all 0.5s;
+}
+
+.moreVideosButton:hover {
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    transform: scale(1.108);
+}
+
+.soldOut {
+    box-shadow: none;
+    cursor: default;
+    border: none;
+    background-color: #7d7d7d88;
+    color: rgb(195, 195, 195);
+}
+
+.soldOut:hover,
+.soldOut:active {
+    box-shadow: none;
+    transform: none;
 }

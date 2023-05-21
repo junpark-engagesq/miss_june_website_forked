@@ -2,7 +2,6 @@
 - find good fonts 
 - solve the center section problem and lock titles into place 
 - add proper data
-- style all buttons 
 - load in animation for all sections
 
 ++++++++   HOME   ++++++++
@@ -16,8 +15,6 @@
     - add underline on current viewed nav item as a tracker ting
     - add hovers
 - On section click - scroll to where the color changes for that section (so u can see title)
-- Add About to Nav
-- Fix mobile nav socials icons
 
 ++++++++   WATCH   ++++++++
 
@@ -37,3 +34,4 @@
 - add padding to sides
 
 ++++++++   CONTACT   ++++++++
+make full view height

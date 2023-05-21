@@ -1,10 +1,9 @@
 #home {
     padding: 0 7%;
-    background: url("/public/textures/background-texture-1-updated-transformed.png") no-repeat;
+    background: url("/public/textures/background-texture-1-updated.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-image: ;
-    min-height: 100vh;
+    min-height: 90vh;
     padding-top: 100px;
 }
 

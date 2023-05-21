@@ -27,7 +27,7 @@ function Show(props) {
           URL={props.show.ticketURL} 
           soldOut={props.show.soldOut} 
           disabled={props.show.soldOut}
-          className={"defaultButton" + ( props.show.soldOut ? "soldOut": "" )}
+          className={( props.show.soldOut ? "soldOut": "" )}
         />
       </div>
     </div>

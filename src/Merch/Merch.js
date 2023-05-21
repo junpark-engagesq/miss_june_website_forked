@@ -22,7 +22,7 @@ function Merch() {
           }
         </div>
         { (numItemsToDisplay < totalMerchItems) && 
-          <button className="Button defaultButton showMoreButton" onClick={changeNumberOfDisplayedItems}>
+          <button className="Button" onClick={changeNumberOfDisplayedItems}>
               SHOW MORE
               <i class="fa-solid fa-arrow-down"></i>
           </button>
