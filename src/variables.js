@@ -72,51 +72,70 @@ const noShowsMessage = ["Nothings booked...yet!",
                       ];
 
 // #~#~#~#~#~#~#~#~#~#~#~# MERCH #~#~#~#~#~#~#~#~#~#~#~#
+const merchShopURL = "https://missjune.bandcamp.com/merch";
 const currentMerch = [
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "MJ LP #2",
+    details: "Special Edition Red Vinyl",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$55.00 NZD"
   },
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "MJ LP #2",
+    details: "Vinyl (Black)",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$50.00 NZD"
   },
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "Bad Luck Party",
+    details: "Special Edition Blue Vinyl",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$55.00 NZD"
   },
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "Bad Luck Party",
+    details: "Vinyl (Black)",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$50.00 NZD"
   },
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "Best Girl / Twitch",
+    details: "7\" Vinyl",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$13.00 NZD"
   },
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "Miss June",
+    details: "Necklace",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$20.00 NZD"
   },
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "Christafari Pedal",
+    details: "Analog Distortion",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$180.00 NZD"
   },
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "MLE",
+    details: "T-Shirt",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$40.00 NZD"
   },
   {
-    name : "Miss June T-Shirt",
-    imageURL : "/images/test_merch.jpg",
-    URL : "https://www.pornhub.com/"
+    name : "Miss June",
+    details: "Poster 40 x 32cm",
+    imageURL : "/images/merch-images/test_merch.jpg",
+    URL : "https://www.pornhub.com/",
+    price : "$25.00 NZD"
   },
 ];
 
@@ -127,7 +146,8 @@ const bandBiography = ["Miss June is what happens when angst matures. Raised in 
                         "Miss June are fast growing into a force to be reckoned with. Miss June demand attention. There has never been a better time for Miss June to make noise. Get in now. Or miss out.",
 ];
 
-export { videosToDisplay, 
+export { videosToDisplay,
+         merchShopURL,
          currentMerch, 
          upcomingShows, 
          noShowsMessage,

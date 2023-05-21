@@ -15,7 +15,7 @@
 
 @media (max-width:500px) {
     #merchItems {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
