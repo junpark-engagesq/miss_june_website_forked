@@ -1,10 +1,8 @@
 #home {
-    padding: 0 7%;
     background: url("/public/textures/background-texture-1-updated.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 90vh;
-    padding-top: 100px;
+    padding-top: 35px;
 }
 
 .home-row {
@@ -59,20 +57,30 @@
     width: 50%;
 }
 
+.home-section-padding {
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    position: relative;
+    min-height: 97vh;
+}
+
 @media (max-width: 1024px) {
+
+    .home-section-padding {
+        flex-flow: column;
+    }
+
     .homeImage {
-        margin-top: 1em;
         max-width: 90%;
         max-height: 100%;
         width: 700px;
+        margin-bottom: 5%;
     }
 
     .home-row {
         flex-flow: column;
-    }
-
-    #album-content {
-        margin: 5% 0 0 0;
     }
 
     .album-header {
@@ -87,17 +95,4 @@
         display: none;
     }
 }
-
-@media (max-width: 500px) {
-    .homeImage {
-        margin-top: 1em;
-    }
-    
-    .miss-june-logo {
-        display: block;
-        width: 70%;
-        margin: 0 auto;
-    }
-}
-    
     

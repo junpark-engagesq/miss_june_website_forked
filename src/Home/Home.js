@@ -4,28 +4,29 @@ import { albumCoverImageToDisplay, albumStreamURLAmazon, albumStreamURLSpotify, 
 function Home() {
   return (
     <section id="home">
-      {/* <img className="miss-june-logo" src="/images/miss-june-logo.png"></img> */}
-      <div className="home-row">
-        <div id="homepageImg">
-          <img className="homeImage"src={albumCoverImageToDisplay} alt="Miss June Album Cover"></img>
-        </div>
-        <div id="homepage-right">
-          <div id="album-content">
-            <img className="miss-june-home-logo" src="/images/miss-june-logo.png"></img>
-            <br/>
-            <a href={albumBuyLink} target="_blank" rel="norefferer" className="Button BuyAlbumButton">
-              OUT NOW
-            </a>
-            <div>
-              <a href={albumStreamURLSpotify} target="_blank" rel="norefferer">
-                <img className="stream-logo" src="/images/logo-spotify.png"></img>
+      <div className="home-section-padding">
+        <div className="home-row">
+          <div id="homepageImg">
+            <img className="homeImage"src={albumCoverImageToDisplay} alt="Miss June Album Cover"></img>
+          </div>
+          <div id="homepage-right">
+            <div id="album-content">
+              <img className="miss-june-home-logo" src="/images/miss-june-logo.png"></img>
+              <br/>
+              <a href={albumBuyLink} target="_blank" rel="norefferer" className="Button BuyAlbumButton">
+                OUT NOW
               </a>
-              <a href={albumStreamURLAppleMusic} target="_blank" rel="norefferer">
-                <img className="stream-logo" src="/images/logo-apple-music.png"></img>
-              </a>
-              <a href={albumStreamURLAmazon} target="_blank" rel="norefferer">
-                <img className="stream-logo" src="/images/logo-amazon.png"></img>
-              </a>
+              <div>
+                <a href={albumStreamURLSpotify} target="_blank" rel="norefferer">
+                  <img className="stream-logo" src="/images/logo-spotify.png"></img>
+                </a>
+                <a href={albumStreamURLAppleMusic} target="_blank" rel="norefferer">
+                  <img className="stream-logo" src="/images/logo-apple-music.png"></img>
+                </a>
+                <a href={albumStreamURLAmazon} target="_blank" rel="norefferer">
+                  <img className="stream-logo" src="/images/logo-amazon.png"></img>
+                </a>
+              </div>
             </div>
           </div>
         </div>

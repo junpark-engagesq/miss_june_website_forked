@@ -9,6 +9,7 @@
     line-height: 16px;
     max-height: 45px;
     min-width: 120px;
+    max-width: 165px;
     outline: 0;
     padding: 12px 14px;
     text-align: center;
@@ -23,6 +24,7 @@
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
     color: white;
     transition: all 0.5s;
+    margin: 0 auto;
 }
 
 .Button:hover,

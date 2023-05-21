@@ -20,41 +20,41 @@ function Watch() {
     return (
     <section id="watch">
         <div className="section-padding">
-            <h1>WATCH</h1>
-            
-            <div className="content-wrapper">
-                {/* <div className="videoControls">
-                    <a className="videoControl" onClick={() => changeVideo('prev')}>
-                        <i class="fa-solid fa-angle-left fa-2xl"></i>
-                    </a>
-                </div> */}
-
-                <iframe src={videosToDisplay[currentIndex]}
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-                            gyroscope; picture-in-picture; web-share" 
-                        allowFullScreen>
-                </iframe>
-
-                {/* <div className="videoControls">
-                    <a className="videoControl" onClick={() => changeVideo('next')}>
-                        <i class="fa-solid fa-angle-right fa-2xl"></i>
-                    </a>
-                </div> */}
-            
-            {/* <div id="indexIndicator"> 
-                {videosToDisplay.map((video, index) => {
-                    return <hr className="videoIndexLine"/>
-                })
-            }
+            <div className="section-title-wrapper">
+                <h1 className="section-title">WATCH</h1>
+            </div>
+            {/* <div className="videoControls">
+                <a className="videoControl" onClick={() => changeVideo('prev')}>
+                    <i class="fa-solid fa-angle-left fa-2xl"></i>
+                </a>
             </div> */}
 
-                <div id='moreVideos'>
-                    <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="Button moreVideosButton">
-                        MORE VIDEOS 
-                    </a>
-                </div>
+            <iframe src={videosToDisplay[currentIndex]}
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                        gyroscope; picture-in-picture; web-share" 
+                    allowFullScreen>
+            </iframe>
+
+            {/* <div className="videoControls">
+                <a className="videoControl" onClick={() => changeVideo('next')}>
+                    <i class="fa-solid fa-angle-right fa-2xl"></i>
+                </a>
+            </div> */}
+        
+        {/* <div id="indexIndicator"> 
+            {videosToDisplay.map((video, index) => {
+                return <hr className="videoIndexLine"/>
+            })
+        }
+        </div> */}
+
+            <div id='moreVideos'>
+                <a href="https://www.youtube.com/@missjunevevo4647" target="_blank" rel="norefferer" className="Button moreVideosButton">
+                    MORE VIDEOS 
+                </a>
             </div>
+
         </div>
     </section>
   );

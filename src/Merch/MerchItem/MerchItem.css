@@ -36,6 +36,17 @@
     }
     
     .merchItem {
+        width: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .merchImage {
+        width: 100%;
+        min-width: 50px;
+    }
+    
+    .merchItem {
         width: 140px;
     }
 }

@@ -10,7 +10,7 @@ function Merch() {
   const width  = ( window.innerWidth || document.documentElement.clientWidth || 
   document.body.clientWidth );
   var incrementAmount = 3;
-  if( width < 540 ) incrementAmount = 2;
+  if( width < 1024 ) incrementAmount = 2;
 
   const [numItemsToDisplay, setNumItemsToDisplay] = useState(( incrementAmount == 2) ? 4 : 3);
   const changeNumberOfDisplayedItems = () => {
@@ -21,25 +21,27 @@ function Merch() {
   return (
     <section id="merch">
       <div className="section-padding">
-        <h1 className="section-title">MERCH</h1>
-        <div id="merchItems">
-          {currentMerch.map((merchItem, index) => {
-            if( index < numItemsToDisplay ) return <MerchItem item={merchItem} key={index} />
-            })
+          <div className="section-title-wrapper">
+            <h1 className="section-title">MERCH</h1>
+          </div>
+          <div id="merchItems">
+            {currentMerch.map((merchItem, index) => {
+              if( index < numItemsToDisplay ) return <MerchItem item={merchItem} key={index} />
+              })
+            }
+          </div>
+          { (numItemsToDisplay + incrementAmount <= totalMerchItems) && 
+            <button className="Button" onClick={changeNumberOfDisplayedItems}>
+                SHOW MORE
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
           }
-        </div>
-        { (numItemsToDisplay + incrementAmount <= totalMerchItems) && 
-          <button className="Button" onClick={changeNumberOfDisplayedItems}>
-              SHOW MORE
-              <i class="fa-solid fa-arrow-down"></i>
-          </button>
-        }
-        { (numItemsToDisplay + incrementAmount > totalMerchItems) && 
-            <Button 
-            buttonText= "VISIT SHOP"
-            URL={merchShopURL} 
-          />
-        }
+          { (numItemsToDisplay + incrementAmount > totalMerchItems) && 
+              <Button 
+              buttonText= "VISIT SHOP"
+              URL={merchShopURL} 
+            />
+          }
       </div>
     </section>
   );
