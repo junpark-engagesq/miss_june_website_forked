@@ -66,6 +66,11 @@ const upcomingShows = [
     }
 ];
 
+const noShowsMessage = ["Nothings booked...yet!", 
+                        "Follow us to get updates when we book our next show", 
+                        ":)"
+                      ];
+
 // #~#~#~#~#~#~#~#~#~#~#~# MERCH #~#~#~#~#~#~#~#~#~#~#~#
 const currentMerch = [
   {
@@ -125,6 +130,7 @@ const bandBiography = ["Miss June is what happens when angst matures. Raised in 
 export { videosToDisplay, 
          currentMerch, 
          upcomingShows, 
+         noShowsMessage,
          albumCoverImageToDisplay,
          albumStreamURLAmazon,
          albumStreamURLSpotify,

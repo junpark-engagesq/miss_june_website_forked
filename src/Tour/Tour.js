@@ -1,6 +1,6 @@
 import './Tour.css';
 import Show from './Show/Show.js';
-import { upcomingShows, bandBiography } from '../variables';
+import { upcomingShows, noShowsMessage } from '../variables';
 
 function Tour() {
   return (
@@ -10,6 +10,9 @@ function Tour() {
         <div className="shows">
           {upcomingShows.map((singleShow, index) => <Show show={singleShow} key={index} />)}
         </div>
+        { !upcomingShows.length && 
+              noShowsMessage.map((sentence, index) => <p className="no-shows-message">{sentence}</p>)
+         }
       </div>
     </section>
   );

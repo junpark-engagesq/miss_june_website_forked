@@ -6,6 +6,7 @@
 
 ++++++++   HOME   ++++++++
 
+
 ++++++++   NAV   ++++++++
 - Finish Animation
 - phone screen 
@@ -25,8 +26,7 @@
 - sold out layover image or text
 
 ++++++++   SHOWS   ++++++++
-- fix hover over show 
-- default no show message - follow us here for announcement 
+- update no shows message
 
 ++++++++   ABOUT   ++++++++
 - margin top title 
