@@ -41,7 +41,16 @@ nav #navItems {
     list-style: none;
 }
 
-nav #navItems li a {
+.underline {
+    width: 95%;
+    height: 3px;
+    background-color: #ca0000;
+    z-index: 999;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+.navItem {
     display: inline-block;
     padding: 10px;
     margin: 10px;
@@ -49,6 +58,10 @@ nav #navItems li a {
     text-transform: uppercase;
     font-size: 18px;
     border-bottom: 3px solid transparent;
+}
+
+.navItem:hover .underline {
+    visibility: visible;
 }
 
 #navBarIcon {
@@ -142,6 +155,10 @@ nav #navItems li a {
         font-size: 2.5vh;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .navItem:hover .underline {
+        visibility: hidden;
     }
 
     /* Animation */

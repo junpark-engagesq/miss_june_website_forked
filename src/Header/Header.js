@@ -25,12 +25,12 @@ function Header() {
           <a className="mobileSocialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer" onClick={() => toggleNavbar()}><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
         </span>
         <ul id="navItems">
-          <li><a className="navItem" id="navListItem" href="#" onClick={() => toggleNavbar()}>HOME</a></li>
-          <li><a className="navItem" id="navListItem" href="#watch" onClick={() => toggleNavbar()}>WATCH</a></li>
-          <li><a className="navItem" id="navListItem" href="#merch" onClick={() => toggleNavbar()}>MERCH</a></li>
-          <li><a className="navItem" id="navListItem" href="#shows" onClick={() => toggleNavbar()}>SHOWS</a></li>
-          <li><a className="navItem" id="navListItem" href="#about" onClick={() => toggleNavbar()}>ABOUT</a></li>
-          <li><a className="navItem" id="navListItem" href="#contact"onClick={() => toggleNavbar()}>CONTACT</a></li>
+          <li><a className="navItem" href="#" onClick={() => toggleNavbar()}>HOME <div className="underline"></div></a></li>
+          <li><a className="navItem" href="#watch" onClick={() => toggleNavbar()}>WATCH <div className="underline"></div></a></li>
+          <li><a className="navItem" href="#merch" onClick={() => toggleNavbar()}>MERCH <div className="underline"></div></a></li>
+          <li><a className="navItem" href="#shows" onClick={() => toggleNavbar()}>SHOWS <div className="underline"></div></a></li>
+          <li><a className="navItem" href="#about" onClick={() => toggleNavbar()}>ABOUT <div className="underline"></div></a></li>
+          <li><a className="navItem" href="#contact"onClick={() => toggleNavbar()}>CONTACT <div className="underline"></div></a></li>
         </ul> 
       </nav>
     </header>
