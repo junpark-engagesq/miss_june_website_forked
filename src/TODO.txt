@@ -7,7 +7,6 @@
 
 ++++++++   HOME   ++++++++
 
-
 ++++++++   NAV   ++++++++
 - Finish Animation
 - phone screen 
@@ -21,18 +20,12 @@
 ++++++++   WATCH   ++++++++
 
 ++++++++   MERCH   ++++++++
-- style each merch item (Font/spacing/etc.)
-- for phone screen
-    - display 2 items per row - try it out
-- sold out layover image or text
 
 ++++++++   SHOWS   ++++++++
-- update no shows message
 
 ++++++++   ABOUT   ++++++++
 - margin top title 
 - get proper bio 
-- add padding to sides
 
 ++++++++   CONTACT   ++++++++
 make full view height

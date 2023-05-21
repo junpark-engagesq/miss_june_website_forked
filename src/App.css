@@ -9,6 +9,10 @@
   }
 }
 
+* {
+  scroll-margin-top: calc(35px + 43px); /* header width + section padding-top */
+}
+
 .section-padding {
   padding: 48px 16px 50px;
   min-height: 85vh;

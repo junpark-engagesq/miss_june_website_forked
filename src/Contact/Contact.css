@@ -13,9 +13,10 @@
     font-size: 18px;
 }
 
-.white-background {
+/* .white-background {
     background: white;
-}
+    margin: 0 auto;
+} */
 
 @media (max-width: 500px) {
     h3 {
