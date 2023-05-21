@@ -10,7 +10,6 @@
 - Finish Animation
 - Desktop view
     - add underline on current viewed nav item as a tracker ting
-    - add hovers
 
 ++++++++   WATCH   ++++++++
 

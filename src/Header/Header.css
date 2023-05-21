@@ -23,6 +23,7 @@ nav {
     height: 100%;
   }
 
+
 #mobileSocials {
     padding: 15px;
 }
@@ -47,6 +48,7 @@ nav #navItems li a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
+    border-bottom: 3px solid transparent;
 }
 
 #navBarIcon {
@@ -63,17 +65,21 @@ nav #navItems li a {
     .hidden {
         visibility:hidden; 
     }
+    
+    #header {
+        flex-wrap: wrap;
+    }
 
     .logo {
         display: flex;
         width: 100vw;
-        justify-content: center;
+        justify-content:center;
         z-index: 99;
-        padding-top: 10em;
+        margin: 0;
     }
 
     .logo img{
-        width: 200px;
+        width: 360px;
     }
 
     #header {
@@ -88,6 +94,7 @@ nav #navItems li a {
     
     nav #navItems li a {
         font-size: 2.5vh;
+        font-weight: bold;
         padding: 0.5em;
     }
 
@@ -96,7 +103,7 @@ nav #navItems li a {
         justify-content: center;
         flex-direction: column;
         transition: top 1s ease 0s;
-        background-color: rgb(223, 223, 223);
+        background-color: white;
         position: fixed;
         top: 0px;
         right: 0px;
@@ -110,32 +117,31 @@ nav #navItems li a {
         
     #navBarIcon {
         display: block;
+        justify-content: center;
         position: absolute;
         z-index: 99;
-        font-size: 4vh;
+        font-size: 3em;
         margin: 0.5em;
     }
 
     #mobileSocials {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         z-index: 98;
-        width: 100vw;
         position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
-        padding: 0 0 10px 0;
         text-align: center;
-        background-color: rgb(223, 223, 223);
+        background-color: white;
+        margin: 0 6em;
     }
 
     .mobileSocialIcon {
         font-size: 2.5vh;
         margin-left: 0;
         margin-right: 0;
-
     }
 
     /* Animation */
@@ -191,6 +197,18 @@ nav #navItems li a {
 }
 
 @media (max-width : 500px) {
+    #mobileSocials {
+        margin: 0 1em;
+    }
+
+    .logo img{
+        width: 250px;
+    }
+
+    #navBarIcon {
+        margin: 0.5em;
+        font-size: 2em;
+    }
 }
 
 /* HOVER EFFECTS SOCIALS */
@@ -218,4 +236,8 @@ nav #navItems li a {
 .fa-bars:hover {
     cursor: pointer;
     color: var(--BUTTON_COLOUR);
+}
+
+nav #navItems li a:hover  {
+    border-bottom: 3px solid red;
 }
