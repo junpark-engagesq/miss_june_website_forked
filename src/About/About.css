@@ -8,6 +8,8 @@
 #bio {
     text-align: left;
     font-size: 18px;
+    max-width: 45vw;
+    margin: 0 auto;
 }
 
 .bioSentence {
@@ -30,12 +32,19 @@
         width: 70%;
         margin-bottom: 30px;
     }
+
+    #bio {
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 580px) {
     .bandImage{
         width: 100%;
         margin-bottom: 30px;
+    }
+    #bio {
+        max-width: 90%;
     }
 }
 
