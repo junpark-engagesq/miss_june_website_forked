@@ -1,36 +1,26 @@
 ++++++++   General   ++++++++
 - find good fonts 
 - solve the center section problem and lock titles into place 
-- add proper data
-- style all buttons 
 - load in animation for all sections
+- white backgrounds on text items with white/spotty texture? 
 
 ++++++++   HOME   ++++++++
 
 ++++++++   NAV   ++++++++
 - Finish Animation
-- phone screen 
 - Desktop view
     - add underline on current viewed nav item as a tracker ting
-    - add hovers
-- On section click - scroll to where the color changes for that section (so u can see title)
-
 
 ++++++++   WATCH   ++++++++
 
 ++++++++   MERCH   ++++++++
-- style each merch item (Font/spacing/etc.)
-- for phone screen
-    - display 2 items per row - try it out
-- sold out layover image or text
 
 ++++++++   SHOWS   ++++++++
-- fix hover over show 
-- default no show message - follow us here for announcement 
 
 ++++++++   ABOUT   ++++++++
 - margin top title 
-- get proper bio 
-- add padding to sides
 
 ++++++++   CONTACT   ++++++++
+
+Before Pushing Live:
+- add proper data

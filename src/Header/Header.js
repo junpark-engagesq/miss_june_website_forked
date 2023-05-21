@@ -25,12 +25,12 @@ function Header() {
           <a className="mobileSocialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer" onClick={() => toggleNavbar()}><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
         </span>
         <ul id="navItems">
-          <li><a className="navItem" id="navListItem" href="#" onClick={() => toggleNavbar()}>HOME</a></li>
-          <li><a className="navItem" id="navListItem" href="#watch" activeClass="active" smooth spy to="watch"  onClick={() => toggleNavbar()}>WATCH</a></li>
-          <li><a className="navItem" id="navListItem" href="#merch" activeClass="active" smooth spy to="merch"  onClick={() => toggleNavbar()}>MERCH</a></li>
-          <li><a className="navItem" id="navListItem" href="#tour" activeClass="active" smooth spy to="tour" onClick={() => toggleNavbar()}>TOURS</a></li>
-          <li><a className="navItem" id="navListItem" href="#about" activeClass="active" smooth spy to="about"  onClick={() => toggleNavbar()}>ABOUT</a></li>
-          <li><a className="navItem" id="navListItem" href="#contact" activeClass="active" smooth spy to="contact"  onClick={() => toggleNavbar()}>CONTACT</a></li>
+          <li><a className="navItem" id="navListItem" href="#" onClick={() => toggleNavbar()}>HOME </a></li>
+          <li><a className="navItem" id="navListItem" href="#watch" onClick={() => toggleNavbar()}>WATCH</a></li>
+          <li><a className="navItem" id="navListItem" href="#merch" onClick={() => toggleNavbar()}>MERCH</a></li>
+          <li><a className="navItem" id="navListItem" href="#tour" onClick={() => toggleNavbar()}>SHOWS</a></li>
+          <li><a className="navItem" id="navListItem" href="#about" onClick={() => toggleNavbar()}>ABOUT</a></li>
+          <li><a className="navItem" id="navListItem" href="#contact"onClick={() => toggleNavbar()}>CONTACT</a></li>
         </ul> 
       </nav>
     </header>

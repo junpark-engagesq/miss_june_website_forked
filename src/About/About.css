@@ -8,8 +8,50 @@
 #bio {
     text-align: left;
     font-size: 18px;
+    max-width: 45vw;
+    margin: 0 auto;
 }
 
 .bioSentence {
     margin-bottom: 25px;
+}
+
+.bandImage{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.bandImage:hover{
+    animation-name: tilt-shaking;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@media (max-width: 1024px) {
+    .bandImage{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    #bio {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 580px) {
+    .bandImage{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #bio {
+        max-width: 90%;
+    }
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(0.5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-0.5deg); }
+    100% { transform: rotate(0deg); }
 }
