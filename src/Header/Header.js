@@ -12,8 +12,9 @@ import './Header.css';
 function Header() {
   return (
     <header id="header">
+      <div class='logo'><img src="MissJuneLogoNav.png" alt="Logo"></img></div>
+      <i id="navBarIcon" className="fa-solid fa-lg fa-bars icon" onClick={() => toggleNavbar()}></i>
       <nav id="navBar" className="hidden">
-      {/* <div class='logo'><img src="android-chrome-384x384.png" alt="Logo"></img></div> */}
         <span id="mobileSocials">
           <a className="mobileSocialIcon" href="https://www.facebook.com/missjunenz/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-facebook-f icon" onClick={() => toggleNavbar()}></i></a>
           <a className="mobileSocialIcon" href="https://www.instagram.com/ihatemissjune/" target="_blank" rel="norefferer"><i className="fa-brands fa-lg fa-instagram" icon onClick={() => toggleNavbar()}></i></a>
@@ -24,15 +25,14 @@ function Header() {
           <a className="mobileSocialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer" onClick={() => toggleNavbar()}><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
         </span>
         <ul id="navItems">
-          <li><a className="navItem" id="navListItem" href="#" onClick={() => toggleNavbar()}>HOME </a></li>
-          <li><a className="navItem" id="navListItem" href="#watch" onClick={() => toggleNavbar()}>WATCH</a></li>
-          <li><a className="navItem" id="navListItem" href="#merch" onClick={() => toggleNavbar()}>MERCH</a></li>
-          <li><a className="navItem" id="navListItem" href="#tour" onClick={() => toggleNavbar()}>TOURS</a></li>
-          <li><a className="navItem" id="navListItem" href="#about" onClick={() => toggleNavbar()}>ABOUT</a></li>
-          <li><a className="navItem" id="navListItem" href="#contact"onClick={() => toggleNavbar()}>CONTACT</a></li>
+          <li><a className="navItem" id="navListItem" href="#" onClick={() => toggleNavbar()}>HOME</a></li>
+          <li><a className="navItem" id="navListItem" href="#watch" activeClass="active" smooth spy to="watch"  onClick={() => toggleNavbar()}>WATCH</a></li>
+          <li><a className="navItem" id="navListItem" href="#merch" activeClass="active" smooth spy to="merch"  onClick={() => toggleNavbar()}>MERCH</a></li>
+          <li><a className="navItem" id="navListItem" href="#tour" activeClass="active" smooth spy to="tour" onClick={() => toggleNavbar()}>TOURS</a></li>
+          <li><a className="navItem" id="navListItem" href="#about" activeClass="active" smooth spy to="about"  onClick={() => toggleNavbar()}>ABOUT</a></li>
+          <li><a className="navItem" id="navListItem" href="#contact" activeClass="active" smooth spy to="contact"  onClick={() => toggleNavbar()}>CONTACT</a></li>
         </ul> 
       </nav>
-      <i id="navBarIcon" className="fa-solid fa-lg fa-bars icon" onClick={() => toggleNavbar()}></i>
     </header>
   );
 }
