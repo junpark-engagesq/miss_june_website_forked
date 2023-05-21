@@ -1,15 +1,15 @@
-import './Tour.css';
+import './Shows.css';
 import Show from './Show/Show.js';
 import { upcomingShows, noShowsMessage } from '../variables';
 
-function Tour() {
+function Shows() {
   return (
-    <section id="tour">
+    <section id="shows">
       <div className="section-padding">
         <div className="section-title-wrapper">
           <h1 className="section-title">SHOWS</h1>
         </div>
-        <div className="shows">
+        <div className="showsList">
           {upcomingShows.map((singleShow, index) => <Show show={singleShow} key={index} />)}
         </div>
         { !upcomingShows.length && 
@@ -20,4 +20,4 @@ function Tour() {
   );
 }
 
-export default Tour;
+export default Shows;

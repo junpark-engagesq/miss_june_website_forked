@@ -1,11 +1,11 @@
-#tour {
+#shows {
     color: white;
     background-image: url("/public/textures/redBgUpdated.png");
     background-size: cover;
     background-attachment: fixed;
 }
 
-.shows > :first-child {
+.showsList > :first-child {
     border-top: 1px solid black;
 }
 
