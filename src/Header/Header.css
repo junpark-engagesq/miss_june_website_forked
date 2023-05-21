@@ -202,7 +202,7 @@ nav #navItems li a {
     }
 
     .logo img{
-        width: 250px;
+        width: 280px;
     }
 
     #navBarIcon {
@@ -236,8 +236,4 @@ nav #navItems li a {
 .fa-bars:hover {
     cursor: pointer;
     color: var(--BUTTON_COLOUR);
-}
-
-nav #navItems li a:hover  {
-    border-bottom: 3px solid red;
 }
