@@ -241,7 +241,3 @@ nav #navItems li a {
 nav #navItems li a:hover  {
     border-bottom: 3px solid red;
 }
-
-nav #navItems li a.active {
-    border-bottom: 3px solid red;
-}

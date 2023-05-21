@@ -10,14 +10,11 @@
 ++++++++   NAV   ++++++++
 - Finish Animation
 - phone screen 
-    - add logo - Done
-    - add coloring - Done
 - Desktop view
     - add underline on current viewed nav item as a tracker ting
     - add hovers
 - On section click - scroll to where the color changes for that section (so u can see title)
-- Add About to Nav - Done
-- Fix mobile nav socials icons - Done
+
 
 ++++++++   WATCH   ++++++++
 
