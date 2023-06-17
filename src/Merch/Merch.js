@@ -12,7 +12,7 @@ function Merch() {
   var incrementAmount = 3;
   if( width < 1024 ) incrementAmount = 2;
 
-  const [numItemsToDisplay, setNumItemsToDisplay] = useState(( incrementAmount == 2) ? 4 : 3);
+  const [numItemsToDisplay, setNumItemsToDisplay] = useState(( incrementAmount === 2) ? 4 : 3);
   const changeNumberOfDisplayedItems = () => {
       var newNumItemsToDisplay = (numItemsToDisplay + incrementAmount <= totalMerchItems) ? (numItemsToDisplay + incrementAmount) : numItemsToDisplay;
       setNumItemsToDisplay(newNumItemsToDisplay);
@@ -25,7 +25,7 @@ function Merch() {
         <div id="merchItems">
           {currentMerch.map((merchItem, index) => {
             if( index < numItemsToDisplay ) return <MerchItem item={merchItem} key={index} />
-            })
+            else return <></>})
           }
         </div>
         { (numItemsToDisplay + incrementAmount <= totalMerchItems) && 

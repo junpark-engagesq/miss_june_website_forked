@@ -66,11 +66,6 @@ const upcomingShows = [
     // }
 ];
 
-const noShowsMessage = ["Nothings booked...yet!", 
-                        "Follow us to get updates when we book our next show", 
-                        ":)"
-                      ];
-
 // #~#~#~#~#~#~#~#~#~#~#~# MERCH #~#~#~#~#~#~#~#~#~#~#~#
 const merchShopURL = "https://missjune.bandcamp.com/merch";
 
@@ -151,7 +146,6 @@ export { videosToDisplay,
          merchShopURL,
          currentMerch, 
          upcomingShows, 
-         noShowsMessage,
          albumCoverImageToDisplay,
          albumStreamURLAmazon,
          albumStreamURLSpotify,

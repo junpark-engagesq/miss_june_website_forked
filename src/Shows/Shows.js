@@ -1,6 +1,6 @@
 import './Shows.css';
 import Show from './Show/Show.js';
-import { upcomingShows, noShowsMessage } from '../variables';
+import { upcomingShows } from '../variables';
 
 function Shows() {
 
