@@ -18,30 +18,47 @@ function Merch() {
       setNumItemsToDisplay(newNumItemsToDisplay);
   };
 
+  const displayMerch = () => {
+    if( currentMerch.length )
+    {
+      return <div id="merchItems-wrapper">
+        <div id="merchItems">
+          {currentMerch.map((merchItem, index) => {
+            if( index < numItemsToDisplay ) return <MerchItem item={merchItem} key={index} />
+            })
+          }
+        </div>
+        { (numItemsToDisplay + incrementAmount <= totalMerchItems) && 
+          <button className="Button" onClick={changeNumberOfDisplayedItems}>
+              SHOW MORE
+              <i class="fa-solid fa-arrow-down"></i>
+          </button>
+        }
+        { (numItemsToDisplay + incrementAmount > totalMerchItems) && 
+            <Button 
+            buttonText= "VISIT SHOP"
+            URL={merchShopURL} 
+          />
+        }
+      </div>
+    }
+    else
+    {
+      return (
+        <div id="merchItems-wrapper">
+            <p className="white-bg">new merch coming soon</p>
+            <p className="white-bg">:)</p>
+        </div>
+    )}
+  }
+
   return (
     <section id="merch">
       <div className="section-padding">
           <div className="section-title-wrapper">
             <h1 className="section-title">MERCH</h1>
           </div>
-          <div id="merchItems">
-            {currentMerch.map((merchItem, index) => {
-              if( index < numItemsToDisplay ) return <MerchItem item={merchItem} key={index} />
-              })
-            }
-          </div>
-          { (numItemsToDisplay + incrementAmount <= totalMerchItems) && 
-            <button className="Button" onClick={changeNumberOfDisplayedItems}>
-                SHOW MORE
-                <i class="fa-solid fa-arrow-down"></i>
-            </button>
-          }
-          { (numItemsToDisplay + incrementAmount > totalMerchItems) && 
-              <Button 
-              buttonText= "VISIT SHOP"
-              URL={merchShopURL} 
-            />
-          }
+          { displayMerch() }
       </div>
     </section>
   );

@@ -16,54 +16,54 @@ const albumBuyLink = "https://www.flyingnun.co.nz/products/miss-june-bad-luck-pa
 // #~#~#~#~#~#~#~#~#~#~#~# SHOWS #~#~#~#~#~#~#~#~#~#~#~#
 // date format: YYYY-MM-DD
 const upcomingShows = [
-    {
-        date : "2023-03-03", 
-        venue : "Whammy Bar", 
-        country : "New Zealand", 
-        city : "Auckland",
-        ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
-        soldOut : true
-    },
-    {
-        date : "2023-03-09", 
-        venue : "San Fran", 
-        country : "New Zealand", 
-        city : "Wellington",
-        ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
-        soldOut : false
-    },
-    {
-        date : "2023-03-11", 
-        venue : "Outerfields Western Springs Park", 
-        country : "New Zealand", 
-        city : "Auckland",
-        ticketURL : "www.google.com",
-        soldOut : false
-    },
-    {
-      date : "2023-10-13", 
-      venue : "James Mum's House", 
-      country : "New Zealand", 
-      city : "Auckland",
-      ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
-      soldOut : true
-    },
-    {
-        date : "2023-11-01", 
-        venue : "Saddam's Hiding Place", 
-        country : "طعمه جيد", 
-        city : "المهبل",
-        ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
-        soldOut : true
-    },
-    {
-        date : "2023-12-25", 
-        venue : "The Gates Of Hell", 
-        country : "Australia", 
-        city : "Geelong",
-        ticketURL : "www.google.com",
-        soldOut : false
-    }
+    // {
+    //     date : "2023-03-03", 
+    //     venue : "Whammy Bar", 
+    //     country : "New Zealand", 
+    //     city : "Auckland",
+    //     ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
+    //     soldOut : true
+    // },
+    // {
+    //     date : "2023-03-09", 
+    //     venue : "San Fran", 
+    //     country : "New Zealand", 
+    //     city : "Wellington",
+    //     ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
+    //     soldOut : false
+    // },
+    // {
+    //     date : "2023-03-11", 
+    //     venue : "Outerfields Western Springs Park", 
+    //     country : "New Zealand", 
+    //     city : "Auckland",
+    //     ticketURL : "www.google.com",
+    //     soldOut : false
+    // },
+    // {
+    //   date : "2023-10-13", 
+    //   venue : "James Mum's House", 
+    //   country : "New Zealand", 
+    //   city : "Auckland",
+    //   ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
+    //   soldOut : true
+    // },
+    // {
+    //     date : "2023-11-01", 
+    //     venue : "Saddam's Hiding Place", 
+    //     country : "طعمه جيد", 
+    //     city : "المهبل",
+    //     ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
+    //     soldOut : true
+    // },
+    // {
+    //     date : "2023-12-25", 
+    //     venue : "The Gates Of Hell", 
+    //     country : "Australia", 
+    //     city : "Geelong",
+    //     ticketURL : "www.google.com",
+    //     soldOut : false
+    // }
 ];
 
 const noShowsMessage = ["Nothings booked...yet!", 
@@ -73,70 +73,71 @@ const noShowsMessage = ["Nothings booked...yet!",
 
 // #~#~#~#~#~#~#~#~#~#~#~# MERCH #~#~#~#~#~#~#~#~#~#~#~#
 const merchShopURL = "https://missjune.bandcamp.com/merch";
+
 const currentMerch = [
-  {
-    name : "MJ LP #2",
-    details: "Special Edition Red Vinyl",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$55.00 NZD"
-  },
-  {
-    name : "MJ LP #2",
-    details: "Vinyl (Black)",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$50.00 NZD"
-  },
-  {
-    name : "Bad Luck Party",
-    details: "Special Edition Blue Vinyl",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$55.00 NZD"
-  },
-  {
-    name : "Bad Luck Party",
-    details: "Vinyl (Black)",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$50.00 NZD"
-  },
-  {
-    name : "Best Girl / Twitch",
-    details: "7\" Vinyl",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$13.00 NZD"
-  },
-  {
-    name : "Miss June",
-    details: "Necklace",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$20.00 NZD"
-  },
-  {
-    name : "Christafari Pedal",
-    details: "Analog Distortion",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$180.00 NZD"
-  },
-  {
-    name : "MLE",
-    details: "T-Shirt",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$40.00 NZD"
-  },
-  {
-    name : "Miss June",
-    details: "Poster 40 x 32cm",
-    imageURL : "/images/merch-images/test_merch.jpg",
-    URL : "https://www.pornhub.com/",
-    price : "$25.00 NZD"
-  },
+  // {
+  //   name : "MJ LP #2",
+  //   details: "Special Edition Red Vinyl",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$55.00 NZD"
+  // },
+  // {
+  //   name : "MJ LP #2",
+  //   details: "Vinyl (Black)",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$50.00 NZD"
+  // },
+  // {
+  //   name : "Bad Luck Party",
+  //   details: "Special Edition Blue Vinyl",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$55.00 NZD"
+  // },
+  // {
+  //   name : "Bad Luck Party",
+  //   details: "Vinyl (Black)",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$50.00 NZD"
+  // },
+  // {
+  //   name : "Best Girl / Twitch",
+  //   details: "7\" Vinyl",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$13.00 NZD"
+  // },
+  // {
+  //   name : "Miss June",
+  //   details: "Necklace",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$20.00 NZD"
+  // },
+  // {
+  //   name : "Christafari Pedal",
+  //   details: "Analog Distortion",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$180.00 NZD"
+  // },
+  // {
+  //   name : "MLE",
+  //   details: "T-Shirt",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$40.00 NZD"
+  // },
+  // {
+  //   name : "Miss June",
+  //   details: "Poster 40 x 32cm",
+  //   imageURL : "/images/merch-images/test_merch.jpg",
+  //   URL : "https://www.pornhub.com/",
+  //   price : "$25.00 NZD"
+  // },
 ];
 
 const bandBiography = ["Miss June is what happens when angst matures. Raised in the embers of punk rock, Miss June harness jagged, noisy guitars filtered through the unrivalled stage presence of frontperson Annabel Liddell, unafraid, unapologetic and ready to wake up the music scene.",

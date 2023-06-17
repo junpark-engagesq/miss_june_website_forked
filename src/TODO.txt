@@ -1,15 +1,10 @@
 ++++++++   General   ++++++++
 - find good fonts 
-- solve the center section problem and lock titles into place 
 - load in animation for all sections
-- white backgrounds on text items with white/spotty texture? 
 
 ++++++++   HOME   ++++++++
 
 ++++++++   NAV   ++++++++
-- Finish Animation
-- Desktop view
-    - add underline on current viewed nav item as a tracker ting
 
 ++++++++   WATCH   ++++++++
 
