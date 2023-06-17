@@ -12,7 +12,7 @@ import './Header.css';
 function Header() {
   return (
     <header id="header">
-      <div class='logo'><img src="MissJuneLogoNav.png" alt="Logo"></img></div>
+      <div class='logo'><img src={process.env.PUBLIC_URL + "MissJuneLogoNav.png"} alt="Logo"></img></div>
       <i id="navBarIcon" className="fa-solid fa-lg fa-bars icon" onClick={() => toggleNavbar()}></i>
       <nav id="navBar" className="hidden">
         <span id="mobileSocials">
