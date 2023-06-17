@@ -9,7 +9,7 @@ function About() {
           <h1 className="section-title">ABOUT</h1>
         </div>
         <div>
-            <img className="bandImage" src="/images/band_image.png"></img>
+            <img className="bandImage" src={process.env.PUBLIC_URL + "/images/band_image.png"} alt="Band pic :)"></img>
         </div>
         <div id="bio">
             {bandBiography.map((line, index) =>
