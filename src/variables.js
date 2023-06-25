@@ -75,63 +75,72 @@ const currentMerch = [
   //   details: "Special Edition Red Vinyl",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD"
+  //   price : "$55.00 NZD",
+  //   altText : "Merch Item"
   // },
   // {
   //   name : "MJ LP #2",
   //   details: "Vinyl (Black)",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$50.00 NZD"
+  //   price : "$50.00 NZD",
+  //   altText : "Merch Item"
   // },
   // {
   //   name : "Bad Luck Party",
   //   details: "Special Edition Blue Vinyl",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD"
+  //   price : "$55.00 NZD",
+  //   altText : "Merch Item"
   // },
   // {
   //   name : "Bad Luck Party",
   //   details: "Vinyl (Black)",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$50.00 NZD"
+  //   price : "$55.00 NZD",
+  //   altText : "Merch Item"
   // },
   // {
   //   name : "Best Girl / Twitch",
   //   details: "7\" Vinyl",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$13.00 NZD"
+  //   price : "$55.00 NZD",
+  //   altText : "Merch Item"
   // },
   // {
   //   name : "Miss June",
   //   details: "Necklace",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$20.00 NZD"
+  //   price : "$55.00 NZD",
+  //   altText : "Merch Item"
   // },
   // {
   //   name : "Christafari Pedal",
   //   details: "Analog Distortion",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$180.00 NZD"
+  //   price : "$55.00 NZD",
+  //   altText : "Merch Item"
   // },
   // {
   //   name : "MLE",
   //   details: "T-Shirt",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$40.00 NZD"
+  //   price : "$55.00 NZD",
+  //   altText : "Merch Item"
   // },
   // {
   //   name : "Miss June",
   //   details: "Poster 40 x 32cm",
   //   imageURL : "/images/merch-images/test_merch.jpg",
   //   URL : "https://www.pornhub.com/",
-  //   price : "$25.00 NZD"
+  //   price : "$55.00 NZD",
+  //   altText : "Merch Item"
   // },
 ];
 

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './Watch.css';
 import { videosToDisplay } from '../variables';
 
@@ -7,7 +7,7 @@ import { videosToDisplay } from '../variables';
 // }
 
 function Watch() {
-    const [currentIndex, setCurrentIndex] = useState(0);
+    // const [currentIndex, setCurrentIndex] = useState(0);
     // const changeVideo = (prevOrNext) => {
     //     var increment = (prevOrNext == "prev") ? -1 : 1;
     //     setCurrentIndex(modOperator(currentIndex + increment, videosToDisplay.length));
@@ -29,7 +29,7 @@ function Watch() {
                 </a>
             </div> */}
 
-            <iframe src={videosToDisplay[currentIndex]}
+            <iframe src={videosToDisplay[0]}
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                         gyroscope; picture-in-picture; web-share" 

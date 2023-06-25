@@ -25,7 +25,7 @@ function Header() {
           <a className="mobileSocialIcon" href="https://soundcloud.com/missjuneband" target="_blank" rel="norefferer" onClick={() => toggleNavbar()}><i className="fa-brands fa-lg fa-soundcloud icon"></i></a>
         </span>
         <ul id="navItems">
-          <li><a className="navItem" href="#" onClick={() => toggleNavbar()}>HOME <div className="underline"></div></a></li>
+          <li><a className="navItem" href="#home" onClick={() => toggleNavbar()}>HOME <div className="underline"></div></a></li>
           <li><a className="navItem" href="#watch" onClick={() => toggleNavbar()}>WATCH <div className="underline"></div></a></li>
           <li><a className="navItem" href="#merch" onClick={() => toggleNavbar()}>MERCH <div className="underline"></div></a></li>
           <li><a className="navItem" href="#shows" onClick={() => toggleNavbar()}>SHOWS <div className="underline"></div></a></li>

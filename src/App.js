@@ -6,7 +6,6 @@ import Merch from './Merch/Merch.js';
 import Shows from './Shows/Shows.js';
 import About from './About/About.js';
 import Contact from './Contact/Contact.js';
-import Footer from './Footer/Footer.js';
 
 function App() {
   return (
