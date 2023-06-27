@@ -1,6 +1,6 @@
 #shows {
     color: white;
-    background-image: url("/public/textures/redBgUpdated.png");
+    background-image: url("/public/textures/red-background.png");
     background-size: cover;
     background-attachment: fixed;
 }

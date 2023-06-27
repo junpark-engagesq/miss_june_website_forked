@@ -1,5 +1,5 @@
 #about {
-    background-image: url("/public/textures/redBgUpdated.png");
+    background-image: url("/public/textures/red-background.png");
     background-size: cover;
     background-attachment: fixed;
     color: white;
@@ -13,6 +13,7 @@
 }
 
 .bioSentence {
+    font-family: 'Patua One', cursive;
     margin-bottom: 25px;
 }
 
